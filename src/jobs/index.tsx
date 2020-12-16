@@ -1,6 +1,6 @@
 import React, { PureComponent, ReactElement } from 'react'
 
-export default class Home extends PureComponent {
+export default class Jobs extends PureComponent {
 
   render = (): ReactElement => {
 
