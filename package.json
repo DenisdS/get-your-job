@@ -108,8 +108,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn lint",
-      "pre-push": "yarn coverage"
+      //"pre-commit": "yarn lint",
+      //"pre-push": "yarn coverage"
     }
   },
   "jest": {
