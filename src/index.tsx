@@ -1,4 +1,7 @@
 /* tslint:disable: ordered-imports */
+import 'core-js/es'
+import 'regenerator-runtime/runtime'
+import 'unfetch/polyfill/index'
 
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
