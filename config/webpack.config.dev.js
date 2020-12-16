@@ -48,10 +48,6 @@ let entries = [
   `webpack-dev-server/client?http://${getIpAddress()}:3000`
 ];
 
-if (process.env.DEVICE === "lg-webos") {
-  entries.unshift("./device-dependencies/webOS.js");
-}
-
 // This is the development configuration.
 // It is focused on developer experience and fast rebuilds.
 // The production configuration is different and lives in a separate file.

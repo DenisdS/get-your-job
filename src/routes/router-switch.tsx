@@ -1,22 +1,19 @@
 import React, {
-  lazy
+  PureComponent
 } from 'react'
 import {
   Route,
   Switch,
 } from 'react-router-dom'
 
+import Home from '../home/Index'
+export default class RouterSwitch extends PureComponent {
 
-const Home = lazy(() =>
-  import(/* webpackChunkName: "home-route" */ '../home/Index')
-)
-
-
-const routes = () =>{
-  return(
-    <Switch>
-      <Route exact path='/' component={Home}/>
-    </Switch>
-  );
+  render = () => {
+    return (
+      <Switch>
+        <Route exact path='/' component={Home}/>
+      </Switch>
+    )
+  }
 }
-export default routes;
