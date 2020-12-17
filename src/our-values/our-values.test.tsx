@@ -1,7 +1,7 @@
 import React from 'react'
 import { mount } from 'enzyme'
 
-import OurValues from './Index'
+import OurValues from './index'
 
 const createComponent = ({}) => {
   const wrapper = mount(<OurValues  />)

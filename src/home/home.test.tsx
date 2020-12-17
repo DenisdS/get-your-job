@@ -6,6 +6,7 @@ import {
 } from '../common'
 
 import About from '../about/index'
+import OurValues from '../our-values/index'
 
 import Home from './Index'
 
@@ -39,6 +40,13 @@ describe('Home Component', () => {
       const [wrapper, unmount] = createComponent({})
 
       expect(wrapper.find(About).length).toBe(1)
+      unmount()
+    })
+
+    it('Should render Our values page', () => {
+      const [wrapper, unmount] = createComponent({})
+
+      expect(wrapper.find(OurValues).length).toBe(1)
       unmount()
     })
   })

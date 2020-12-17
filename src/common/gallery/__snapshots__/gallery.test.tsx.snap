@@ -20,13 +20,137 @@ ReactWrapper {
     "props": Object {},
     "ref": null,
     "rendered": Object {
-      "instance": <div />,
+      "instance": <div>
+        <h2>
+          CONHEÇA NOSSO TIME 
+          <br />
+          FORA DE SÉRIE
+        </h2>
+        <ul>
+          <li />
+          <li />
+          <li />
+          <li />
+        </ul>
+      </div>,
       "key": undefined,
       "nodeType": "host",
-      "props": Object {},
+      "props": Object {
+        "children": Array [
+          <h2>
+            CONHEÇA NOSSO TIME 
+            <br />
+            FORA DE SÉRIE
+          </h2>,
+          <ul>
+            <li />
+            <li />
+            <li />
+            <li />
+          </ul>,
+        ],
+      },
       "ref": null,
       "rendered": Array [
-        undefined,
+        Object {
+          "instance": <h2>
+            CONHEÇA NOSSO TIME 
+            <br />
+            FORA DE SÉRIE
+          </h2>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "CONHEÇA NOSSO TIME ",
+              <br />,
+              "FORA DE SÉRIE",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "CONHEÇA NOSSO TIME ",
+            Object {
+              "instance": <br />,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": Array [
+                undefined,
+              ],
+              "type": "br",
+            },
+            "FORA DE SÉRIE",
+          ],
+          "type": "h2",
+        },
+        Object {
+          "instance": <ul>
+            <li />
+            <li />
+            <li />
+            <li />
+          </ul>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <li />,
+              <li />,
+              <li />,
+              <li />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": <li />,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": Array [
+                undefined,
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": <li />,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": Array [
+                undefined,
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": <li />,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": Array [
+                undefined,
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": <li />,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": Array [
+                undefined,
+              ],
+              "type": "li",
+            },
+          ],
+          "type": "ul",
+        },
       ],
       "type": "div",
     },
@@ -40,13 +164,137 @@ ReactWrapper {
       "props": Object {},
       "ref": null,
       "rendered": Object {
-        "instance": <div />,
+        "instance": <div>
+          <h2>
+            CONHEÇA NOSSO TIME 
+            <br />
+            FORA DE SÉRIE
+          </h2>
+          <ul>
+            <li />
+            <li />
+            <li />
+            <li />
+          </ul>
+        </div>,
         "key": undefined,
         "nodeType": "host",
-        "props": Object {},
+        "props": Object {
+          "children": Array [
+            <h2>
+              CONHEÇA NOSSO TIME 
+              <br />
+              FORA DE SÉRIE
+            </h2>,
+            <ul>
+              <li />
+              <li />
+              <li />
+              <li />
+            </ul>,
+          ],
+        },
         "ref": null,
         "rendered": Array [
-          undefined,
+          Object {
+            "instance": <h2>
+              CONHEÇA NOSSO TIME 
+              <br />
+              FORA DE SÉRIE
+            </h2>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "CONHEÇA NOSSO TIME ",
+                <br />,
+                "FORA DE SÉRIE",
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "CONHEÇA NOSSO TIME ",
+              Object {
+                "instance": <br />,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": Array [
+                  undefined,
+                ],
+                "type": "br",
+              },
+              "FORA DE SÉRIE",
+            ],
+            "type": "h2",
+          },
+          Object {
+            "instance": <ul>
+              <li />
+              <li />
+              <li />
+              <li />
+            </ul>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <li />,
+                <li />,
+                <li />,
+                <li />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": <li />,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": Array [
+                  undefined,
+                ],
+                "type": "li",
+              },
+              Object {
+                "instance": <li />,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": Array [
+                  undefined,
+                ],
+                "type": "li",
+              },
+              Object {
+                "instance": <li />,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": Array [
+                  undefined,
+                ],
+                "type": "li",
+              },
+              Object {
+                "instance": <li />,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": Array [
+                  undefined,
+                ],
+                "type": "li",
+              },
+            ],
+            "type": "ul",
+          },
         ],
         "type": "div",
       },

@@ -5,6 +5,7 @@ import {
 } from '../common'
 
 import About from '../about/index'
+import OurValues from '../our-values/index'
 export default class Home extends PureComponent {
 
   render = (): ReactElement => {
@@ -13,6 +14,7 @@ export default class Home extends PureComponent {
       <div>
         <HeaderComponent />
         <About />
+        <OurValues />
       </div>
     )
   }
