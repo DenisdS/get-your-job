@@ -1,0 +1,21 @@
+@import '../style/variables.scss';
+
+* {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: $PRIMARY_SIZE;
+}
+
+h2 {
+  font-size: $SECOUNDARY_SIZE;
+}
+
+h3 {
+  font-size: $TERCIARY_SIZE;
+}
+
+p {
+  font-size: TEXT_SIZE
+}

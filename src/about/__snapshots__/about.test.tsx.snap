@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`About Component Should match snapshot 1`] = `
+exports[`About Component Snapshot Should match snapshot 1`] = `
 ReactWrapper {
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
