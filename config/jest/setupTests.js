@@ -1,12 +1,22 @@
-'use strict';
+const Enzyme = require('enzyme');
+const Adapter = require('enzyme-adapter-react-16');
+const CONFIG = require('../main');
 
-const path = require('path');
+// React 16 Enzyme adapter
+Enzyme.configure({ adapter: new Adapter() });
 
-// This is a custom Jest transformer turning file imports into filenames.
-// http://facebook.github.io/jest/docs/tutorial-webpack.html
+global.window.innerWidth = 1280
+global.window.innerHeight = 720
 
-module.exports = {
-  process(src, filename) {
-    return `module.exports = ${JSON.stringify(path.basename(filename))};`;
-  },
+global.window.resizeTo = (width, height) => {
+  global.window.innerWidth = width || global.window.innerWidth;
+  global.window.innerHeight = height || global.window.innerHeight;
+  global.window.dispatchEvent(new Event('resize'));
 };
+
+process.env = Object.assign({}, process.env, {})
+process.env.PUBLIC_URL = ''
+process.env.CONFIG = Object.assign({}, CONFIG, {
+  PROJECT_VERSION: undefined
+})
+
