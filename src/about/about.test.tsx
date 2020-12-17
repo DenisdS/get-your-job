@@ -2,21 +2,20 @@ import React from 'react'
 import { mount } from 'enzyme'
 
 import {
-  HeaderComponent
+  GalleryComponent,
+  MediaHighlightComponent
 } from '../common'
 
 import About from '../about/index'
 
-import Home from './Index'
-
 const createComponent = ({}) => {
-  const wrapper = mount(<Home  />)
+  const wrapper = mount(<About  />)
   const unmount = () => wrapper.unmount()
 
   return [wrapper, unmount]
 }
 
-describe('Home Component', () => {
+describe('About Component', () => {
 
   describe('Snapshot', () => {
     it('Should match snapshot', () => {
@@ -28,17 +27,17 @@ describe('Home Component', () => {
   })
 
   describe('Render', () => {
-    it('Should render Header component', () => {
+    it('Should render  Media Highlight component', () => {
       const [wrapper, unmount] = createComponent({})
 
-      expect(wrapper.find(HeaderComponent).length).toBe(1)
+      expect(wrapper.find( MediaHighlightComponent).length).toBe(1)
       unmount()
     })
 
-    it('Should render About page', () => {
+    it('Should render Gallery component', () => {
       const [wrapper, unmount] = createComponent({})
 
-      expect(wrapper.find(About).length).toBe(1)
+      expect(wrapper.find(GalleryComponent).length).toBe(1)
       unmount()
     })
   })
