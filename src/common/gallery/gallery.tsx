@@ -10,6 +10,17 @@ const GalleryComponent = ({
 
   return (
     <div>
+      <h2>
+        CONHEÇA NOSSO TIME <br />
+        FORA DE SÉRIE
+      </h2>
+
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
     </div>
   )
 }
