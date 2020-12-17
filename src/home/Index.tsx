@@ -3,6 +3,8 @@ import React, { PureComponent, ReactElement } from 'react'
 import {
   HeaderComponent
 } from '../common'
+
+import About from '../about/index'
 export default class Home extends PureComponent {
 
   render = (): ReactElement => {
@@ -10,6 +12,7 @@ export default class Home extends PureComponent {
     return (
       <div>
         <HeaderComponent />
+        <About />
       </div>
     )
   }

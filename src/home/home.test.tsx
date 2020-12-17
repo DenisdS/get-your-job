@@ -5,6 +5,8 @@ import {
   HeaderComponent
 } from '../common'
 
+import About from '../about/index'
+
 import Home from './Index'
 
 const createComponent = ({}) => {
@@ -31,6 +33,13 @@ describe('Home Component', () => {
       const [wrapper, unmount] = createComponent({})
 
       expect(wrapper.find(HeaderComponent).length).toBe(1)
+      unmount()
+    })
+
+    it('Should render About page', () => {
+      const [wrapper, unmount] = createComponent({})
+
+      expect(wrapper.find(About).length).toBe(1)
       unmount()
     })
   })
