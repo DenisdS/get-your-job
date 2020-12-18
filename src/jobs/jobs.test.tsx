@@ -21,14 +21,15 @@ describe('Jobs Component', () => {
   })
 
   describe('Render', () => {
-    it('Should render jobs section', () => {
-      const [wrapper, unmount] = createComponent()
-
-      expect(wrapper.find('section.jobs').length).toBe(1)
-      unmount()
-    })
 
     describe('Render Section', () => {
+      it('Should render jobs section', () => {
+        const [wrapper, unmount] = createComponent()
+
+        expect(wrapper.find('section.jobs').length).toBe(1)
+        unmount()
+      })
+
       it('should this is an h2 tag in section', () => {
         const [wrapper, unmount] = createComponent()
 
@@ -41,6 +42,22 @@ describe('Jobs Component', () => {
         const [wrapper, unmount] = createComponent()
 
         expect(wrapper.find('ul')).toBeTruthy()
+        unmount()
+      })
+    })
+
+    describe('Render image', () => {
+      it('should this is an image in section', () => {
+        const [wrapper, unmount] = createComponent({})
+
+        expect(wrapper.find('section.jobs img')).toBeTruthy()
+        unmount()
+      })
+
+      it('should this is alt atribute on image tag', () =>
+        const [wrapper, unmount] = createComponent({})
+
+        expect(wrapper.find('section.jobs img').prop('alt')).toBeTruthy()
         unmount()
       })
     })

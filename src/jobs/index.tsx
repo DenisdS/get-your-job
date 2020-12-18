@@ -10,6 +10,7 @@ type State = {
 }
 
 export default class Jobs extends PureComponent<Props, State> {
+  imgBanner = `${process.env.PUBLIC_URL}/images/foto-bottom.png`
 
   constructor(props) {
     super(props)
@@ -64,6 +65,10 @@ export default class Jobs extends PureComponent<Props, State> {
 
     return (
       <section className="jobs">
+        <img
+          src={this.imgBanner}
+          alt="Saiba mais sobre nós"
+        />
         <h2>VAGAS EM ABERTO</h2>
         <h3 style={{color: '#7d7873'}}>DESENVOLVIMENTO</h3>
 

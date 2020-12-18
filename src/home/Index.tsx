@@ -1,4 +1,7 @@
-import React, { PureComponent, ReactElement } from 'react'
+import React, {
+  PureComponent,
+  ReactElement
+} from 'react'
 
 import {
   HeaderComponent

@@ -109,6 +109,10 @@ ReactWrapper {
                   <section
                     class="jobs"
                   >
+                    <img
+                      alt="Saiba mais sobre nós"
+                      src="/images/foto-bottom.png"
+                    />
                     <h2>
                       VAGAS EM ABERTO
                     </h2>
@@ -224,6 +228,10 @@ ReactWrapper {
                 <section
                   class="jobs"
                 >
+                  <img
+                    alt="Saiba mais sobre nós"
+                    src="/images/foto-bottom.png"
+                  />
                   <h2>
                     VAGAS EM ABERTO
                   </h2>
@@ -338,20 +346,22 @@ ReactWrapper {
             "childExpirationTime": 0,
             "dependencies": null,
             "effectTag": 0,
-            "elementType": "h2",
+            "elementType": "img",
             "expirationTime": 0,
             "firstEffect": null,
             "index": 0,
             "key": null,
             "lastEffect": null,
             "memoizedProps": Object {
-              "children": "VAGAS EM ABERTO",
+              "alt": "Saiba mais sobre nós",
+              "src": "/images/foto-bottom.png",
             },
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
-              "children": "VAGAS EM ABERTO",
+              "alt": "Saiba mais sobre nós",
+              "src": "/images/foto-bottom.png",
             },
             "ref": null,
             "return": [Circular],
@@ -370,26 +380,20 @@ ReactWrapper {
               "childExpirationTime": 0,
               "dependencies": null,
               "effectTag": 0,
-              "elementType": "h3",
+              "elementType": "h2",
               "expirationTime": 0,
               "firstEffect": null,
               "index": 1,
               "key": null,
               "lastEffect": null,
               "memoizedProps": Object {
-                "children": "DESENVOLVIMENTO",
-                "style": Object {
-                  "color": "#7d7873",
-                },
+                "children": "VAGAS EM ABERTO",
               },
               "memoizedState": null,
               "mode": 0,
               "nextEffect": null,
               "pendingProps": Object {
-                "children": "DESENVOLVIMENTO",
-                "style": Object {
-                  "color": "#7d7873",
-                },
+                "children": "VAGAS EM ABERTO",
               },
               "ref": null,
               "return": [Circular],
@@ -408,47 +412,94 @@ ReactWrapper {
                 "childExpirationTime": 0,
                 "dependencies": null,
                 "effectTag": 0,
-                "elementType": "ul",
+                "elementType": "h3",
                 "expirationTime": 0,
                 "firstEffect": null,
                 "index": 2,
                 "key": null,
                 "lastEffect": null,
                 "memoizedProps": Object {
-                  "children": Array [],
+                  "children": "DESENVOLVIMENTO",
+                  "style": Object {
+                    "color": "#7d7873",
+                  },
                 },
                 "memoizedState": null,
                 "mode": 0,
                 "nextEffect": null,
                 "pendingProps": Object {
-                  "children": Array [],
+                  "children": "DESENVOLVIMENTO",
+                  "style": Object {
+                    "color": "#7d7873",
+                  },
                 },
                 "ref": null,
                 "return": [Circular],
                 "selfBaseDuration": 0,
-                "sibling": null,
-                "stateNode": <ul />,
+                "sibling": FiberNode {
+                  "_debugHookTypes": null,
+                  "_debugID": 137,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugNeedsRemount": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "dependencies": null,
+                  "effectTag": 0,
+                  "elementType": "ul",
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 3,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": Array [],
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": Array [],
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": <ul />,
+                  "tag": 5,
+                  "treeBaseDuration": 0,
+                  "type": "ul",
+                  "updateQueue": null,
+                },
+                "stateNode": <h3
+                  style="color: rgb(125, 120, 115);"
+                >
+                  DESENVOLVIMENTO
+                </h3>,
                 "tag": 5,
                 "treeBaseDuration": 0,
-                "type": "ul",
+                "type": "h3",
                 "updateQueue": null,
               },
-              "stateNode": <h3
-                style="color: rgb(125, 120, 115);"
-              >
-                DESENVOLVIMENTO
-              </h3>,
+              "stateNode": <h2>
+                VAGAS EM ABERTO
+              </h2>,
               "tag": 5,
               "treeBaseDuration": 0,
-              "type": "h3",
+              "type": "h2",
               "updateQueue": null,
             },
-            "stateNode": <h2>
-              VAGAS EM ABERTO
-            </h2>,
+            "stateNode": <img
+              alt="Saiba mais sobre nós"
+              src="/images/foto-bottom.png"
+            />,
             "tag": 5,
             "treeBaseDuration": 0,
-            "type": "h2",
+            "type": "img",
             "updateQueue": null,
           },
           "childExpirationTime": 0,
@@ -462,6 +513,10 @@ ReactWrapper {
           "lastEffect": null,
           "memoizedProps": Object {
             "children": Array [
+              <img
+                alt="Saiba mais sobre nós"
+                src="/images/foto-bottom.png"
+              />,
               <h2>
                 VAGAS EM ABERTO
               </h2>,
@@ -483,6 +538,10 @@ ReactWrapper {
           "nextEffect": null,
           "pendingProps": Object {
             "children": Array [
+              <img
+                alt="Saiba mais sobre nós"
+                src="/images/foto-bottom.png"
+              />,
               <h2>
                 VAGAS EM ABERTO
               </h2>,
@@ -506,6 +565,10 @@ ReactWrapper {
           "stateNode": <section
             class="jobs"
           >
+            <img
+              alt="Saiba mais sobre nós"
+              src="/images/foto-bottom.png"
+            />
             <h2>
               VAGAS EM ABERTO
             </h2>
@@ -627,6 +690,10 @@ ReactWrapper {
                   <section
                     class="jobs"
                   >
+                    <img
+                      alt="Saiba mais sobre nós"
+                      src="/images/foto-bottom.png"
+                    />
                     <h2>
                       VAGAS EM ABERTO
                     </h2>
@@ -742,6 +809,10 @@ ReactWrapper {
                 <section
                   class="jobs"
                 >
+                  <img
+                    alt="Saiba mais sobre nós"
+                    src="/images/foto-bottom.png"
+                  />
                   <h2>
                     VAGAS EM ABERTO
                   </h2>
@@ -842,6 +913,7 @@ ReactWrapper {
       "componentDidMount": [Function],
       "context": Object {},
       "getJobs": [Function],
+      "imgBanner": "/images/foto-bottom.png",
       "props": Object {},
       "refs": Object {},
       "render": [Function],
@@ -863,6 +935,10 @@ ReactWrapper {
       "instance": <section
         class="jobs"
       >
+        <img
+          alt="Saiba mais sobre nós"
+          src="/images/foto-bottom.png"
+        />
         <h2>
           VAGAS EM ABERTO
         </h2>
@@ -877,6 +953,10 @@ ReactWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
+          <img
+            alt="Saiba mais sobre nós"
+            src="/images/foto-bottom.png"
+          />,
           <h2>
             VAGAS EM ABERTO
           </h2>,
@@ -895,6 +975,23 @@ ReactWrapper {
       },
       "ref": null,
       "rendered": Array [
+        Object {
+          "instance": <img
+            alt="Saiba mais sobre nós"
+            src="/images/foto-bottom.png"
+          />,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "Saiba mais sobre nós",
+            "src": "/images/foto-bottom.png",
+          },
+          "ref": null,
+          "rendered": Array [
+            undefined,
+          ],
+          "type": "img",
+        },
         Object {
           "instance": <h2>
             VAGAS EM ABERTO
@@ -1045,6 +1142,10 @@ ReactWrapper {
                     <section
                       class="jobs"
                     >
+                      <img
+                        alt="Saiba mais sobre nós"
+                        src="/images/foto-bottom.png"
+                      />
                       <h2>
                         VAGAS EM ABERTO
                       </h2>
@@ -1160,6 +1261,10 @@ ReactWrapper {
                   <section
                     class="jobs"
                   >
+                    <img
+                      alt="Saiba mais sobre nós"
+                      src="/images/foto-bottom.png"
+                    />
                     <h2>
                       VAGAS EM ABERTO
                     </h2>
@@ -1274,20 +1379,22 @@ ReactWrapper {
               "childExpirationTime": 0,
               "dependencies": null,
               "effectTag": 0,
-              "elementType": "h2",
+              "elementType": "img",
               "expirationTime": 0,
               "firstEffect": null,
               "index": 0,
               "key": null,
               "lastEffect": null,
               "memoizedProps": Object {
-                "children": "VAGAS EM ABERTO",
+                "alt": "Saiba mais sobre nós",
+                "src": "/images/foto-bottom.png",
               },
               "memoizedState": null,
               "mode": 0,
               "nextEffect": null,
               "pendingProps": Object {
-                "children": "VAGAS EM ABERTO",
+                "alt": "Saiba mais sobre nós",
+                "src": "/images/foto-bottom.png",
               },
               "ref": null,
               "return": [Circular],
@@ -1306,26 +1413,20 @@ ReactWrapper {
                 "childExpirationTime": 0,
                 "dependencies": null,
                 "effectTag": 0,
-                "elementType": "h3",
+                "elementType": "h2",
                 "expirationTime": 0,
                 "firstEffect": null,
                 "index": 1,
                 "key": null,
                 "lastEffect": null,
                 "memoizedProps": Object {
-                  "children": "DESENVOLVIMENTO",
-                  "style": Object {
-                    "color": "#7d7873",
-                  },
+                  "children": "VAGAS EM ABERTO",
                 },
                 "memoizedState": null,
                 "mode": 0,
                 "nextEffect": null,
                 "pendingProps": Object {
-                  "children": "DESENVOLVIMENTO",
-                  "style": Object {
-                    "color": "#7d7873",
-                  },
+                  "children": "VAGAS EM ABERTO",
                 },
                 "ref": null,
                 "return": [Circular],
@@ -1344,47 +1445,94 @@ ReactWrapper {
                   "childExpirationTime": 0,
                   "dependencies": null,
                   "effectTag": 0,
-                  "elementType": "ul",
+                  "elementType": "h3",
                   "expirationTime": 0,
                   "firstEffect": null,
                   "index": 2,
                   "key": null,
                   "lastEffect": null,
                   "memoizedProps": Object {
-                    "children": Array [],
+                    "children": "DESENVOLVIMENTO",
+                    "style": Object {
+                      "color": "#7d7873",
+                    },
                   },
                   "memoizedState": null,
                   "mode": 0,
                   "nextEffect": null,
                   "pendingProps": Object {
-                    "children": Array [],
+                    "children": "DESENVOLVIMENTO",
+                    "style": Object {
+                      "color": "#7d7873",
+                    },
                   },
                   "ref": null,
                   "return": [Circular],
                   "selfBaseDuration": 0,
-                  "sibling": null,
-                  "stateNode": <ul />,
+                  "sibling": FiberNode {
+                    "_debugHookTypes": null,
+                    "_debugID": 137,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugNeedsRemount": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "dependencies": null,
+                    "effectTag": 0,
+                    "elementType": "ul",
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 3,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": Array [],
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": Array [],
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": <ul />,
+                    "tag": 5,
+                    "treeBaseDuration": 0,
+                    "type": "ul",
+                    "updateQueue": null,
+                  },
+                  "stateNode": <h3
+                    style="color: rgb(125, 120, 115);"
+                  >
+                    DESENVOLVIMENTO
+                  </h3>,
                   "tag": 5,
                   "treeBaseDuration": 0,
-                  "type": "ul",
+                  "type": "h3",
                   "updateQueue": null,
                 },
-                "stateNode": <h3
-                  style="color: rgb(125, 120, 115);"
-                >
-                  DESENVOLVIMENTO
-                </h3>,
+                "stateNode": <h2>
+                  VAGAS EM ABERTO
+                </h2>,
                 "tag": 5,
                 "treeBaseDuration": 0,
-                "type": "h3",
+                "type": "h2",
                 "updateQueue": null,
               },
-              "stateNode": <h2>
-                VAGAS EM ABERTO
-              </h2>,
+              "stateNode": <img
+                alt="Saiba mais sobre nós"
+                src="/images/foto-bottom.png"
+              />,
               "tag": 5,
               "treeBaseDuration": 0,
-              "type": "h2",
+              "type": "img",
               "updateQueue": null,
             },
             "childExpirationTime": 0,
@@ -1398,6 +1546,10 @@ ReactWrapper {
             "lastEffect": null,
             "memoizedProps": Object {
               "children": Array [
+                <img
+                  alt="Saiba mais sobre nós"
+                  src="/images/foto-bottom.png"
+                />,
                 <h2>
                   VAGAS EM ABERTO
                 </h2>,
@@ -1419,6 +1571,10 @@ ReactWrapper {
             "nextEffect": null,
             "pendingProps": Object {
               "children": Array [
+                <img
+                  alt="Saiba mais sobre nós"
+                  src="/images/foto-bottom.png"
+                />,
                 <h2>
                   VAGAS EM ABERTO
                 </h2>,
@@ -1442,6 +1598,10 @@ ReactWrapper {
             "stateNode": <section
               class="jobs"
             >
+              <img
+                alt="Saiba mais sobre nós"
+                src="/images/foto-bottom.png"
+              />
               <h2>
                 VAGAS EM ABERTO
               </h2>
@@ -1563,6 +1723,10 @@ ReactWrapper {
                     <section
                       class="jobs"
                     >
+                      <img
+                        alt="Saiba mais sobre nós"
+                        src="/images/foto-bottom.png"
+                      />
                       <h2>
                         VAGAS EM ABERTO
                       </h2>
@@ -1678,6 +1842,10 @@ ReactWrapper {
                   <section
                     class="jobs"
                   >
+                    <img
+                      alt="Saiba mais sobre nós"
+                      src="/images/foto-bottom.png"
+                    />
                     <h2>
                       VAGAS EM ABERTO
                     </h2>
@@ -1778,6 +1946,7 @@ ReactWrapper {
         "componentDidMount": [Function],
         "context": Object {},
         "getJobs": [Function],
+        "imgBanner": "/images/foto-bottom.png",
         "props": Object {},
         "refs": Object {},
         "render": [Function],
@@ -1799,6 +1968,10 @@ ReactWrapper {
         "instance": <section
           class="jobs"
         >
+          <img
+            alt="Saiba mais sobre nós"
+            src="/images/foto-bottom.png"
+          />
           <h2>
             VAGAS EM ABERTO
           </h2>
@@ -1813,6 +1986,10 @@ ReactWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
+            <img
+              alt="Saiba mais sobre nós"
+              src="/images/foto-bottom.png"
+            />,
             <h2>
               VAGAS EM ABERTO
             </h2>,
@@ -1831,6 +2008,23 @@ ReactWrapper {
         },
         "ref": null,
         "rendered": Array [
+          Object {
+            "instance": <img
+              alt="Saiba mais sobre nós"
+              src="/images/foto-bottom.png"
+            />,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "Saiba mais sobre nós",
+              "src": "/images/foto-bottom.png",
+            },
+            "ref": null,
+            "rendered": Array [
+              undefined,
+            ],
+            "type": "img",
+          },
           Object {
             "instance": <h2>
               VAGAS EM ABERTO
