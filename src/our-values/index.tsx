@@ -5,7 +5,7 @@ export default class OurValues extends PureComponent {
   render = (): ReactElement => {
 
     return (
-      <section>
+      <section className="our-values">
         <article>
           <h2>QUALIDADE DE VIDA</h2>
           <p>

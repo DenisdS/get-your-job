@@ -50,4 +50,11 @@ describe('Home Component', () => {
       unmount()
     })
   })
+
+  it('Should set class \'home\'', () => {
+    const [wrapper, unmount] = createComponent({})
+
+    expect(wrapper.find('.home').exists()).toBeTruthy()
+    unmount()
+  })
 })

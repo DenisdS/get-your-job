@@ -106,7 +106,9 @@ ReactWrapper {
                 "callbackNode": null,
                 "callbackPriority": 90,
                 "containerInfo": <div>
-                  <section />
+                  <section
+                    class="jobs"
+                  />
                 </div>,
                 "context": Object {},
                 "current": [Circular],
@@ -209,7 +211,9 @@ ReactWrapper {
               "callbackNode": null,
               "callbackPriority": 90,
               "containerInfo": <div>
-                <section />
+                <section
+                  class="jobs"
+                />
               </div>,
               "context": Object {},
               "current": [Circular],
@@ -310,16 +314,22 @@ ReactWrapper {
           "index": 0,
           "key": null,
           "lastEffect": null,
-          "memoizedProps": Object {},
+          "memoizedProps": Object {
+            "className": "jobs",
+          },
           "memoizedState": null,
           "mode": 0,
           "nextEffect": null,
-          "pendingProps": Object {},
+          "pendingProps": Object {
+            "className": "jobs",
+          },
           "ref": null,
           "return": [Circular],
           "selfBaseDuration": 0,
           "sibling": null,
-          "stateNode": <section />,
+          "stateNode": <section
+            class="jobs"
+          />,
           "tag": 5,
           "treeBaseDuration": 0,
           "type": "section",
@@ -426,7 +436,9 @@ ReactWrapper {
                 "callbackNode": null,
                 "callbackPriority": 90,
                 "containerInfo": <div>
-                  <section />
+                  <section
+                    class="jobs"
+                  />
                 </div>,
                 "context": Object {},
                 "current": [Circular],
@@ -529,7 +541,9 @@ ReactWrapper {
               "callbackNode": null,
               "callbackPriority": 90,
               "containerInfo": <div>
-                <section />
+                <section
+                  class="jobs"
+                />
               </div>,
               "context": Object {},
               "current": [Circular],
@@ -632,10 +646,14 @@ ReactWrapper {
     "props": Object {},
     "ref": null,
     "rendered": Object {
-      "instance": <section />,
+      "instance": <section
+        class="jobs"
+      />,
       "key": undefined,
       "nodeType": "host",
-      "props": Object {},
+      "props": Object {
+        "className": "jobs",
+      },
       "ref": null,
       "rendered": Array [
         undefined,
@@ -738,7 +756,9 @@ ReactWrapper {
                   "callbackNode": null,
                   "callbackPriority": 90,
                   "containerInfo": <div>
-                    <section />
+                    <section
+                      class="jobs"
+                    />
                   </div>,
                   "context": Object {},
                   "current": [Circular],
@@ -841,7 +861,9 @@ ReactWrapper {
                 "callbackNode": null,
                 "callbackPriority": 90,
                 "containerInfo": <div>
-                  <section />
+                  <section
+                    class="jobs"
+                  />
                 </div>,
                 "context": Object {},
                 "current": [Circular],
@@ -942,16 +964,22 @@ ReactWrapper {
             "index": 0,
             "key": null,
             "lastEffect": null,
-            "memoizedProps": Object {},
+            "memoizedProps": Object {
+              "className": "jobs",
+            },
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
-            "pendingProps": Object {},
+            "pendingProps": Object {
+              "className": "jobs",
+            },
             "ref": null,
             "return": [Circular],
             "selfBaseDuration": 0,
             "sibling": null,
-            "stateNode": <section />,
+            "stateNode": <section
+              class="jobs"
+            />,
             "tag": 5,
             "treeBaseDuration": 0,
             "type": "section",
@@ -1058,7 +1086,9 @@ ReactWrapper {
                   "callbackNode": null,
                   "callbackPriority": 90,
                   "containerInfo": <div>
-                    <section />
+                    <section
+                      class="jobs"
+                    />
                   </div>,
                   "context": Object {},
                   "current": [Circular],
@@ -1161,7 +1191,9 @@ ReactWrapper {
                 "callbackNode": null,
                 "callbackPriority": 90,
                 "containerInfo": <div>
-                  <section />
+                  <section
+                    class="jobs"
+                  />
                 </div>,
                 "context": Object {},
                 "current": [Circular],
@@ -1264,10 +1296,14 @@ ReactWrapper {
       "props": Object {},
       "ref": null,
       "rendered": Object {
-        "instance": <section />,
+        "instance": <section
+          class="jobs"
+        />,
         "key": undefined,
         "nodeType": "host",
-        "props": Object {},
+        "props": Object {
+          "className": "jobs",
+        },
         "ref": null,
         "rendered": Array [
           undefined,

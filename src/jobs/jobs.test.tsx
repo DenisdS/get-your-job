@@ -19,4 +19,11 @@ describe('Jobs Component', () => {
     expect(wrapper).toMatchSnapshot()
     unmount()
   })
+
+  it('Should set class \'jobs\'', () => {
+    const [wrapper, unmount] = createComponent({})
+
+    expect(wrapper.find('.jobs').exists()).toBeTruthy()
+    unmount()
+  })
 })

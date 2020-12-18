@@ -106,7 +106,9 @@ ReactWrapper {
                 "callbackNode": null,
                 "callbackPriority": 90,
                 "containerInfo": <div>
-                  <section>
+                  <section
+                    class="our-values"
+                  >
                     <article>
                       <h2>
                         QUALIDADE DE VIDA
@@ -234,7 +236,9 @@ ReactWrapper {
               "callbackNode": null,
               "callbackPriority": 90,
               "containerInfo": <div>
-                <section>
+                <section
+                  class="our-values"
+                >
                   <article>
                     <h2>
                       QUALIDADE DE VIDA
@@ -804,6 +808,7 @@ ReactWrapper {
                 </p>
               </article>,
             ],
+            "className": "our-values",
           },
           "memoizedState": null,
           "mode": 0,
@@ -835,12 +840,15 @@ ReactWrapper {
                 </p>
               </article>,
             ],
+            "className": "our-values",
           },
           "ref": null,
           "return": [Circular],
           "selfBaseDuration": 0,
           "sibling": null,
-          "stateNode": <section>
+          "stateNode": <section
+            class="our-values"
+          >
             <article>
               <h2>
                 QUALIDADE DE VIDA
@@ -972,7 +980,9 @@ ReactWrapper {
                 "callbackNode": null,
                 "callbackPriority": 90,
                 "containerInfo": <div>
-                  <section>
+                  <section
+                    class="our-values"
+                  >
                     <article>
                       <h2>
                         QUALIDADE DE VIDA
@@ -1100,7 +1110,9 @@ ReactWrapper {
               "callbackNode": null,
               "callbackPriority": 90,
               "containerInfo": <div>
-                <section>
+                <section
+                  class="our-values"
+                >
                   <article>
                     <h2>
                       QUALIDADE DE VIDA
@@ -1228,7 +1240,9 @@ ReactWrapper {
     "props": Object {},
     "ref": null,
     "rendered": Object {
-      "instance": <section>
+      "instance": <section
+        class="our-values"
+      >
         <article>
           <h2>
             QUALIDADE DE VIDA
@@ -1283,6 +1297,7 @@ ReactWrapper {
             </p>
           </article>,
         ],
+        "className": "our-values",
       },
       "ref": null,
       "rendered": Array [
@@ -1553,7 +1568,9 @@ ReactWrapper {
                   "callbackNode": null,
                   "callbackPriority": 90,
                   "containerInfo": <div>
-                    <section>
+                    <section
+                      class="our-values"
+                    >
                       <article>
                         <h2>
                           QUALIDADE DE VIDA
@@ -1681,7 +1698,9 @@ ReactWrapper {
                 "callbackNode": null,
                 "callbackPriority": 90,
                 "containerInfo": <div>
-                  <section>
+                  <section
+                    class="our-values"
+                  >
                     <article>
                       <h2>
                         QUALIDADE DE VIDA
@@ -2251,6 +2270,7 @@ ReactWrapper {
                   </p>
                 </article>,
               ],
+              "className": "our-values",
             },
             "memoizedState": null,
             "mode": 0,
@@ -2282,12 +2302,15 @@ ReactWrapper {
                   </p>
                 </article>,
               ],
+              "className": "our-values",
             },
             "ref": null,
             "return": [Circular],
             "selfBaseDuration": 0,
             "sibling": null,
-            "stateNode": <section>
+            "stateNode": <section
+              class="our-values"
+            >
               <article>
                 <h2>
                   QUALIDADE DE VIDA
@@ -2419,7 +2442,9 @@ ReactWrapper {
                   "callbackNode": null,
                   "callbackPriority": 90,
                   "containerInfo": <div>
-                    <section>
+                    <section
+                      class="our-values"
+                    >
                       <article>
                         <h2>
                           QUALIDADE DE VIDA
@@ -2547,7 +2572,9 @@ ReactWrapper {
                 "callbackNode": null,
                 "callbackPriority": 90,
                 "containerInfo": <div>
-                  <section>
+                  <section
+                    class="our-values"
+                  >
                     <article>
                       <h2>
                         QUALIDADE DE VIDA
@@ -2675,7 +2702,9 @@ ReactWrapper {
       "props": Object {},
       "ref": null,
       "rendered": Object {
-        "instance": <section>
+        "instance": <section
+          class="our-values"
+        >
           <article>
             <h2>
               QUALIDADE DE VIDA
@@ -2730,6 +2759,7 @@ ReactWrapper {
               </p>
             </article>,
           ],
+          "className": "our-values",
         },
         "ref": null,
         "rendered": Array [

@@ -5,7 +5,7 @@ export default class Jobs extends PureComponent {
   render = (): ReactElement => {
 
     return (
-      <section>
+      <section className="jobs">
       </section>
     )
   }

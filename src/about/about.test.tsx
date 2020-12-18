@@ -41,4 +41,11 @@ describe('About Component', () => {
       unmount()
     })
   })
+
+  it('Should set class \'about\'', () => {
+    const [wrapper, unmount] = createComponent({})
+
+    expect(wrapper.find('.about').exists()).toBeTruthy()
+    unmount()
+  })
 })

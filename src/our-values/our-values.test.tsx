@@ -20,4 +20,11 @@ describe('OurValues Component', () => {
       unmount()
     })
   })
+
+  it('Should set class \'our values\'', () => {
+    const [wrapper, unmount] = createComponent({})
+
+    expect(wrapper.find('.our-values').exists()).toBeTruthy()
+    unmount()
+  })
 })
