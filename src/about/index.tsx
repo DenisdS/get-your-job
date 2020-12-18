@@ -8,9 +8,7 @@ import {
   MediaHighlightComponent
 } from '../common'
 export default class About extends PureComponent {
-
   render = (): ReactElement => {
-
     return (
       <section className="about">
         <MediaHighlightComponent />
