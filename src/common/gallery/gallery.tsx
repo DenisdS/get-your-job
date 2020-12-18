@@ -10,7 +10,7 @@ export default class GalleryComponent extends PureComponent {
     },
     {
       name: 'beatriz',
-      photo: `${process.env.PUBLIC_URL}/images/beatrizx.png`,
+      photo: `${process.env.PUBLIC_URL}/images/beatriz.png`,
     },
     {
       name: 'guto',
