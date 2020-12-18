@@ -20,10 +20,29 @@ describe('Jobs Component', () => {
     unmount()
   })
 
-  it('Should set class \'jobs\'', () => {
-    const [wrapper, unmount] = createComponent({})
+  describe('Render', () => {
+    it('Should render jobs section', () => {
+      const [wrapper, unmount] = createComponent()
 
-    expect(wrapper.find('.jobs').exists()).toBeTruthy()
-    unmount()
+      expect(wrapper.find('section.jobs').length).toBe(1)
+      unmount()
+    })
+
+    describe('Render Section', () => {
+      it('should this is an h2 tag in section', () => {
+        const [wrapper, unmount] = createComponent()
+
+        expect(wrapper.find('h2')).toBeTruthy()
+        expect(wrapper.find('h3')).toBeTruthy()
+        unmount()
+      })
+
+      it('should this is an ul tag in section', () => {
+        const [wrapper, unmount] = createComponent()
+
+        expect(wrapper.find('ul')).toBeTruthy()
+        unmount()
+      })
+    })
   })
 })

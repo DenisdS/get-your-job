@@ -6,6 +6,7 @@ import {
 } from '../common'
 
 import About from '../about/index'
+import Jobs from '../jobs/index'
 import OurValues from '../our-values/index'
 
 import Home from './Index'
@@ -47,6 +48,13 @@ describe('Home Component', () => {
       const [wrapper, unmount] = createComponent({})
 
       expect(wrapper.find(OurValues).length).toBe(1)
+      unmount()
+    })
+
+    it('Should render Jobs page', () => {
+      const [wrapper, unmount] = createComponent({})
+
+      expect(wrapper.find(Jobs).length).toBe(1)
       unmount()
     })
   })
