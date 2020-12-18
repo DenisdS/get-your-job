@@ -110,6 +110,10 @@ ReactWrapper {
                     class="our-values"
                   >
                     <article>
+                      <img
+                        alt="feliz"
+                        src="/images/qualidade.png"
+                      />
                       <h2>
                         QUALIDADE DE VIDA
                       </h2>
@@ -118,6 +122,10 @@ ReactWrapper {
                       </p>
                     </article>
                     <article>
+                      <img
+                        alt="descolado"
+                        src="/images/descontracao.png"
+                      />
                       <h2>
                         AMBIENTE DESCONTRAÍDO
                       </h2>
@@ -126,6 +134,10 @@ ReactWrapper {
                       </p>
                     </article>
                     <article>
+                      <img
+                        alt="desestressar"
+                        src="/images/atividades.png"
+                      />
                       <h2>
                         ATIVIDADES EXTRAS
                       </h2>
@@ -240,6 +252,10 @@ ReactWrapper {
                   class="our-values"
                 >
                   <article>
+                    <img
+                      alt="feliz"
+                      src="/images/qualidade.png"
+                    />
                     <h2>
                       QUALIDADE DE VIDA
                     </h2>
@@ -248,6 +264,10 @@ ReactWrapper {
                     </p>
                   </article>
                   <article>
+                    <img
+                      alt="descolado"
+                      src="/images/descontracao.png"
+                    />
                     <h2>
                       AMBIENTE DESCONTRAÍDO
                     </h2>
@@ -256,6 +276,10 @@ ReactWrapper {
                     </p>
                   </article>
                   <article>
+                    <img
+                      alt="desestressar"
+                      src="/images/atividades.png"
+                    />
                     <h2>
                       ATIVIDADES EXTRAS
                     </h2>
@@ -378,20 +402,22 @@ ReactWrapper {
               "childExpirationTime": 0,
               "dependencies": null,
               "effectTag": 0,
-              "elementType": "h2",
+              "elementType": "img",
               "expirationTime": 0,
               "firstEffect": null,
               "index": 0,
               "key": null,
               "lastEffect": null,
               "memoizedProps": Object {
-                "children": "QUALIDADE DE VIDA",
+                "alt": "feliz",
+                "src": "/images/qualidade.png",
               },
               "memoizedState": null,
               "mode": 0,
               "nextEffect": null,
               "pendingProps": Object {
-                "children": "QUALIDADE DE VIDA",
+                "alt": "feliz",
+                "src": "/images/qualidade.png",
               },
               "ref": null,
               "return": [Circular],
@@ -410,121 +436,27 @@ ReactWrapper {
                 "childExpirationTime": 0,
                 "dependencies": null,
                 "effectTag": 0,
-                "elementType": "p",
+                "elementType": "h2",
                 "expirationTime": 0,
                 "firstEffect": null,
                 "index": 1,
                 "key": null,
                 "lastEffect": null,
                 "memoizedProps": Object {
-                  "children": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+                  "children": "QUALIDADE DE VIDA",
                 },
                 "memoizedState": null,
                 "mode": 0,
                 "nextEffect": null,
                 "pendingProps": Object {
-                  "children": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
-                },
-                "ref": null,
-                "return": [Circular],
-                "selfBaseDuration": 0,
-                "sibling": null,
-                "stateNode": <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
-                </p>,
-                "tag": 5,
-                "treeBaseDuration": 0,
-                "type": "p",
-                "updateQueue": null,
-              },
-              "stateNode": <h2>
-                QUALIDADE DE VIDA
-              </h2>,
-              "tag": 5,
-              "treeBaseDuration": 0,
-              "type": "h2",
-              "updateQueue": null,
-            },
-            "childExpirationTime": 0,
-            "dependencies": null,
-            "effectTag": 0,
-            "elementType": "article",
-            "expirationTime": 0,
-            "firstEffect": null,
-            "index": 0,
-            "key": null,
-            "lastEffect": null,
-            "memoizedProps": Object {
-              "children": Array [
-                <h2>
-                  QUALIDADE DE VIDA
-                </h2>,
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
-                </p>,
-              ],
-            },
-            "memoizedState": null,
-            "mode": 0,
-            "nextEffect": null,
-            "pendingProps": Object {
-              "children": Array [
-                <h2>
-                  QUALIDADE DE VIDA
-                </h2>,
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
-                </p>,
-              ],
-            },
-            "ref": null,
-            "return": [Circular],
-            "selfBaseDuration": 0,
-            "sibling": FiberNode {
-              "_debugHookTypes": null,
-              "_debugID": 135,
-              "_debugIsCurrentlyTiming": false,
-              "_debugNeedsRemount": false,
-              "_debugOwner": [Circular],
-              "_debugSource": null,
-              "actualDuration": 0,
-              "actualStartTime": -1,
-              "alternate": null,
-              "child": FiberNode {
-                "_debugHookTypes": null,
-                "_debugID": 143,
-                "_debugIsCurrentlyTiming": false,
-                "_debugNeedsRemount": false,
-                "_debugOwner": [Circular],
-                "_debugSource": null,
-                "actualDuration": 0,
-                "actualStartTime": -1,
-                "alternate": null,
-                "child": null,
-                "childExpirationTime": 0,
-                "dependencies": null,
-                "effectTag": 0,
-                "elementType": "h2",
-                "expirationTime": 0,
-                "firstEffect": null,
-                "index": 0,
-                "key": null,
-                "lastEffect": null,
-                "memoizedProps": Object {
-                  "children": "AMBIENTE DESCONTRAÍDO",
-                },
-                "memoizedState": null,
-                "mode": 0,
-                "nextEffect": null,
-                "pendingProps": Object {
-                  "children": "AMBIENTE DESCONTRAÍDO",
+                  "children": "QUALIDADE DE VIDA",
                 },
                 "ref": null,
                 "return": [Circular],
                 "selfBaseDuration": 0,
                 "sibling": FiberNode {
                   "_debugHookTypes": null,
-                  "_debugID": 144,
+                  "_debugID": 140,
                   "_debugIsCurrentlyTiming": false,
                   "_debugNeedsRemount": false,
                   "_debugOwner": [Circular],
@@ -539,7 +471,7 @@ ReactWrapper {
                   "elementType": "p",
                   "expirationTime": 0,
                   "firstEffect": null,
-                  "index": 1,
+                  "index": 2,
                   "key": null,
                   "lastEffect": null,
                   "memoizedProps": Object {
@@ -564,51 +496,78 @@ ReactWrapper {
                   "updateQueue": null,
                 },
                 "stateNode": <h2>
-                  AMBIENTE DESCONTRAÍDO
+                  QUALIDADE DE VIDA
                 </h2>,
                 "tag": 5,
                 "treeBaseDuration": 0,
                 "type": "h2",
                 "updateQueue": null,
               },
-              "childExpirationTime": 0,
-              "dependencies": null,
-              "effectTag": 0,
-              "elementType": "article",
-              "expirationTime": 0,
-              "firstEffect": null,
-              "index": 1,
-              "key": null,
-              "lastEffect": null,
-              "memoizedProps": Object {
-                "children": Array [
-                  <h2>
-                    AMBIENTE DESCONTRAÍDO
-                  </h2>,
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
-                  </p>,
-                ],
-              },
-              "memoizedState": null,
-              "mode": 0,
-              "nextEffect": null,
-              "pendingProps": Object {
-                "children": Array [
-                  <h2>
-                    AMBIENTE DESCONTRAÍDO
-                  </h2>,
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
-                  </p>,
-                ],
-              },
-              "ref": null,
-              "return": [Circular],
-              "selfBaseDuration": 0,
-              "sibling": FiberNode {
+              "stateNode": <img
+                alt="feliz"
+                src="/images/qualidade.png"
+              />,
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": "img",
+              "updateQueue": null,
+            },
+            "childExpirationTime": 0,
+            "dependencies": null,
+            "effectTag": 0,
+            "elementType": "article",
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "children": Array [
+                <img
+                  alt="feliz"
+                  src="/images/qualidade.png"
+                />,
+                <h2>
+                  QUALIDADE DE VIDA
+                </h2>,
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
+                </p>,
+              ],
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "children": Array [
+                <img
+                  alt="feliz"
+                  src="/images/qualidade.png"
+                />,
+                <h2>
+                  QUALIDADE DE VIDA
+                </h2>,
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
+                </p>,
+              ],
+            },
+            "ref": null,
+            "return": [Circular],
+            "selfBaseDuration": 0,
+            "sibling": FiberNode {
+              "_debugHookTypes": null,
+              "_debugID": 135,
+              "_debugIsCurrentlyTiming": false,
+              "_debugNeedsRemount": false,
+              "_debugOwner": [Circular],
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": FiberNode {
                 "_debugHookTypes": null,
-                "_debugID": 136,
+                "_debugID": 145,
                 "_debugIsCurrentlyTiming": false,
                 "_debugNeedsRemount": false,
                 "_debugOwner": [Circular],
@@ -616,9 +575,33 @@ ReactWrapper {
                 "actualDuration": 0,
                 "actualStartTime": -1,
                 "alternate": null,
-                "child": FiberNode {
+                "child": null,
+                "childExpirationTime": 0,
+                "dependencies": null,
+                "effectTag": 0,
+                "elementType": "img",
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "alt": "descolado",
+                  "src": "/images/descontracao.png",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "alt": "descolado",
+                  "src": "/images/descontracao.png",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": FiberNode {
                   "_debugHookTypes": null,
-                  "_debugID": 148,
+                  "_debugID": 146,
                   "_debugIsCurrentlyTiming": false,
                   "_debugNeedsRemount": false,
                   "_debugOwner": [Circular],
@@ -633,24 +616,24 @@ ReactWrapper {
                   "elementType": "h2",
                   "expirationTime": 0,
                   "firstEffect": null,
-                  "index": 0,
+                  "index": 1,
                   "key": null,
                   "lastEffect": null,
                   "memoizedProps": Object {
-                    "children": "ATIVIDADES EXTRAS",
+                    "children": "AMBIENTE DESCONTRAÍDO",
                   },
                   "memoizedState": null,
                   "mode": 0,
                   "nextEffect": null,
                   "pendingProps": Object {
-                    "children": "ATIVIDADES EXTRAS",
+                    "children": "AMBIENTE DESCONTRAÍDO",
                   },
                   "ref": null,
                   "return": [Circular],
                   "selfBaseDuration": 0,
                   "sibling": FiberNode {
                     "_debugHookTypes": null,
-                    "_debugID": 149,
+                    "_debugID": 147,
                     "_debugIsCurrentlyTiming": false,
                     "_debugNeedsRemount": false,
                     "_debugOwner": [Circular],
@@ -665,7 +648,7 @@ ReactWrapper {
                     "elementType": "p",
                     "expirationTime": 0,
                     "firstEffect": null,
-                    "index": 1,
+                    "index": 2,
                     "key": null,
                     "lastEffect": null,
                     "memoizedProps": Object {
@@ -690,11 +673,197 @@ ReactWrapper {
                     "updateQueue": null,
                   },
                   "stateNode": <h2>
-                    ATIVIDADES EXTRAS
+                    AMBIENTE DESCONTRAÍDO
                   </h2>,
                   "tag": 5,
                   "treeBaseDuration": 0,
                   "type": "h2",
+                  "updateQueue": null,
+                },
+                "stateNode": <img
+                  alt="descolado"
+                  src="/images/descontracao.png"
+                />,
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": "img",
+                "updateQueue": null,
+              },
+              "childExpirationTime": 0,
+              "dependencies": null,
+              "effectTag": 0,
+              "elementType": "article",
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 1,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": Array [
+                  <img
+                    alt="descolado"
+                    src="/images/descontracao.png"
+                  />,
+                  <h2>
+                    AMBIENTE DESCONTRAÍDO
+                  </h2>,
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
+                  </p>,
+                ],
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": Array [
+                  <img
+                    alt="descolado"
+                    src="/images/descontracao.png"
+                  />,
+                  <h2>
+                    AMBIENTE DESCONTRAÍDO
+                  </h2>,
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
+                  </p>,
+                ],
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": FiberNode {
+                "_debugHookTypes": null,
+                "_debugID": 136,
+                "_debugIsCurrentlyTiming": false,
+                "_debugNeedsRemount": false,
+                "_debugOwner": [Circular],
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": FiberNode {
+                  "_debugHookTypes": null,
+                  "_debugID": 152,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugNeedsRemount": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "dependencies": null,
+                  "effectTag": 0,
+                  "elementType": "img",
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "alt": "desestressar",
+                    "src": "/images/atividades.png",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "alt": "desestressar",
+                    "src": "/images/atividades.png",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": FiberNode {
+                    "_debugHookTypes": null,
+                    "_debugID": 153,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugNeedsRemount": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "dependencies": null,
+                    "effectTag": 0,
+                    "elementType": "h2",
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 1,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": "ATIVIDADES EXTRAS",
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": "ATIVIDADES EXTRAS",
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": FiberNode {
+                      "_debugHookTypes": null,
+                      "_debugID": 154,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugNeedsRemount": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": null,
+                      "actualDuration": 0,
+                      "actualStartTime": -1,
+                      "alternate": null,
+                      "child": null,
+                      "childExpirationTime": 0,
+                      "dependencies": null,
+                      "effectTag": 0,
+                      "elementType": "p",
+                      "expirationTime": 0,
+                      "firstEffect": null,
+                      "index": 2,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "children": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+                      },
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": Object {
+                        "children": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+                      },
+                      "ref": null,
+                      "return": [Circular],
+                      "selfBaseDuration": 0,
+                      "sibling": null,
+                      "stateNode": <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
+                      </p>,
+                      "tag": 5,
+                      "treeBaseDuration": 0,
+                      "type": "p",
+                      "updateQueue": null,
+                    },
+                    "stateNode": <h2>
+                      ATIVIDADES EXTRAS
+                    </h2>,
+                    "tag": 5,
+                    "treeBaseDuration": 0,
+                    "type": "h2",
+                    "updateQueue": null,
+                  },
+                  "stateNode": <img
+                    alt="desestressar"
+                    src="/images/atividades.png"
+                  />,
+                  "tag": 5,
+                  "treeBaseDuration": 0,
+                  "type": "img",
                   "updateQueue": null,
                 },
                 "childExpirationTime": 0,
@@ -708,6 +877,10 @@ ReactWrapper {
                 "lastEffect": null,
                 "memoizedProps": Object {
                   "children": Array [
+                    <img
+                      alt="desestressar"
+                      src="/images/atividades.png"
+                    />,
                     <h2>
                       ATIVIDADES EXTRAS
                     </h2>,
@@ -721,6 +894,10 @@ ReactWrapper {
                 "nextEffect": null,
                 "pendingProps": Object {
                   "children": Array [
+                    <img
+                      alt="desestressar"
+                      src="/images/atividades.png"
+                    />,
                     <h2>
                       ATIVIDADES EXTRAS
                     </h2>,
@@ -734,6 +911,10 @@ ReactWrapper {
                 "selfBaseDuration": 0,
                 "sibling": null,
                 "stateNode": <article>
+                  <img
+                    alt="desestressar"
+                    src="/images/atividades.png"
+                  />
                   <h2>
                     ATIVIDADES EXTRAS
                   </h2>
@@ -747,6 +928,10 @@ ReactWrapper {
                 "updateQueue": null,
               },
               "stateNode": <article>
+                <img
+                  alt="descolado"
+                  src="/images/descontracao.png"
+                />
                 <h2>
                   AMBIENTE DESCONTRAÍDO
                 </h2>
@@ -760,6 +945,10 @@ ReactWrapper {
               "updateQueue": null,
             },
             "stateNode": <article>
+              <img
+                alt="feliz"
+                src="/images/qualidade.png"
+              />
               <h2>
                 QUALIDADE DE VIDA
               </h2>
@@ -784,6 +973,10 @@ ReactWrapper {
           "memoizedProps": Object {
             "children": Array [
               <article>
+                <img
+                  alt="feliz"
+                  src="/images/qualidade.png"
+                />
                 <h2>
                   QUALIDADE DE VIDA
                 </h2>
@@ -792,6 +985,10 @@ ReactWrapper {
                 </p>
               </article>,
               <article>
+                <img
+                  alt="descolado"
+                  src="/images/descontracao.png"
+                />
                 <h2>
                   AMBIENTE DESCONTRAÍDO
                 </h2>
@@ -800,6 +997,10 @@ ReactWrapper {
                 </p>
               </article>,
               <article>
+                <img
+                  alt="desestressar"
+                  src="/images/atividades.png"
+                />
                 <h2>
                   ATIVIDADES EXTRAS
                 </h2>
@@ -816,6 +1017,10 @@ ReactWrapper {
           "pendingProps": Object {
             "children": Array [
               <article>
+                <img
+                  alt="feliz"
+                  src="/images/qualidade.png"
+                />
                 <h2>
                   QUALIDADE DE VIDA
                 </h2>
@@ -824,6 +1029,10 @@ ReactWrapper {
                 </p>
               </article>,
               <article>
+                <img
+                  alt="descolado"
+                  src="/images/descontracao.png"
+                />
                 <h2>
                   AMBIENTE DESCONTRAÍDO
                 </h2>
@@ -832,6 +1041,10 @@ ReactWrapper {
                 </p>
               </article>,
               <article>
+                <img
+                  alt="desestressar"
+                  src="/images/atividades.png"
+                />
                 <h2>
                   ATIVIDADES EXTRAS
                 </h2>
@@ -850,6 +1063,10 @@ ReactWrapper {
             class="our-values"
           >
             <article>
+              <img
+                alt="feliz"
+                src="/images/qualidade.png"
+              />
               <h2>
                 QUALIDADE DE VIDA
               </h2>
@@ -858,6 +1075,10 @@ ReactWrapper {
               </p>
             </article>
             <article>
+              <img
+                alt="descolado"
+                src="/images/descontracao.png"
+              />
               <h2>
                 AMBIENTE DESCONTRAÍDO
               </h2>
@@ -866,6 +1087,10 @@ ReactWrapper {
               </p>
             </article>
             <article>
+              <img
+                alt="desestressar"
+                src="/images/atividades.png"
+              />
               <h2>
                 ATIVIDADES EXTRAS
               </h2>
@@ -984,6 +1209,10 @@ ReactWrapper {
                     class="our-values"
                   >
                     <article>
+                      <img
+                        alt="feliz"
+                        src="/images/qualidade.png"
+                      />
                       <h2>
                         QUALIDADE DE VIDA
                       </h2>
@@ -992,6 +1221,10 @@ ReactWrapper {
                       </p>
                     </article>
                     <article>
+                      <img
+                        alt="descolado"
+                        src="/images/descontracao.png"
+                      />
                       <h2>
                         AMBIENTE DESCONTRAÍDO
                       </h2>
@@ -1000,6 +1233,10 @@ ReactWrapper {
                       </p>
                     </article>
                     <article>
+                      <img
+                        alt="desestressar"
+                        src="/images/atividades.png"
+                      />
                       <h2>
                         ATIVIDADES EXTRAS
                       </h2>
@@ -1114,6 +1351,10 @@ ReactWrapper {
                   class="our-values"
                 >
                   <article>
+                    <img
+                      alt="feliz"
+                      src="/images/qualidade.png"
+                    />
                     <h2>
                       QUALIDADE DE VIDA
                     </h2>
@@ -1122,6 +1363,10 @@ ReactWrapper {
                     </p>
                   </article>
                   <article>
+                    <img
+                      alt="descolado"
+                      src="/images/descontracao.png"
+                    />
                     <h2>
                       AMBIENTE DESCONTRAÍDO
                     </h2>
@@ -1130,6 +1375,10 @@ ReactWrapper {
                     </p>
                   </article>
                   <article>
+                    <img
+                      alt="desestressar"
+                      src="/images/atividades.png"
+                    />
                     <h2>
                       ATIVIDADES EXTRAS
                     </h2>
@@ -1224,6 +1473,26 @@ ReactWrapper {
       },
       "_reactInternalInstance": Object {},
       "context": Object {},
+      "ourValues": Array [
+        Object {
+          "altImg": "feliz",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+          "image": "/images/qualidade.png",
+          "title": "QUALIDADE DE VIDA",
+        },
+        Object {
+          "altImg": "descolado",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+          "image": "/images/descontracao.png",
+          "title": "AMBIENTE DESCONTRAÍDO",
+        },
+        Object {
+          "altImg": "desestressar",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+          "image": "/images/atividades.png",
+          "title": "ATIVIDADES EXTRAS",
+        },
+      ],
       "props": Object {},
       "refs": Object {},
       "render": [Function],
@@ -1244,6 +1513,10 @@ ReactWrapper {
         class="our-values"
       >
         <article>
+          <img
+            alt="feliz"
+            src="/images/qualidade.png"
+          />
           <h2>
             QUALIDADE DE VIDA
           </h2>
@@ -1252,6 +1525,10 @@ ReactWrapper {
           </p>
         </article>
         <article>
+          <img
+            alt="descolado"
+            src="/images/descontracao.png"
+          />
           <h2>
             AMBIENTE DESCONTRAÍDO
           </h2>
@@ -1260,6 +1537,10 @@ ReactWrapper {
           </p>
         </article>
         <article>
+          <img
+            alt="desestressar"
+            src="/images/atividades.png"
+          />
           <h2>
             ATIVIDADES EXTRAS
           </h2>
@@ -1273,6 +1554,10 @@ ReactWrapper {
       "props": Object {
         "children": Array [
           <article>
+            <img
+              alt="feliz"
+              src="/images/qualidade.png"
+            />
             <h2>
               QUALIDADE DE VIDA
             </h2>
@@ -1281,6 +1566,10 @@ ReactWrapper {
             </p>
           </article>,
           <article>
+            <img
+              alt="descolado"
+              src="/images/descontracao.png"
+            />
             <h2>
               AMBIENTE DESCONTRAÍDO
             </h2>
@@ -1289,6 +1578,10 @@ ReactWrapper {
             </p>
           </article>,
           <article>
+            <img
+              alt="desestressar"
+              src="/images/atividades.png"
+            />
             <h2>
               ATIVIDADES EXTRAS
             </h2>
@@ -1303,6 +1596,10 @@ ReactWrapper {
       "rendered": Array [
         Object {
           "instance": <article>
+            <img
+              alt="feliz"
+              src="/images/qualidade.png"
+            />
             <h2>
               QUALIDADE DE VIDA
             </h2>
@@ -1314,6 +1611,10 @@ ReactWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
+              <img
+                alt="feliz"
+                src="/images/qualidade.png"
+              />,
               <h2>
                 QUALIDADE DE VIDA
               </h2>,
@@ -1324,6 +1625,23 @@ ReactWrapper {
           },
           "ref": null,
           "rendered": Array [
+            Object {
+              "instance": <img
+                alt="feliz"
+                src="/images/qualidade.png"
+              />,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "feliz",
+                "src": "/images/qualidade.png",
+              },
+              "ref": null,
+              "rendered": Array [
+                undefined,
+              ],
+              "type": "img",
+            },
             Object {
               "instance": <h2>
                 QUALIDADE DE VIDA
@@ -1359,6 +1677,10 @@ ReactWrapper {
         },
         Object {
           "instance": <article>
+            <img
+              alt="descolado"
+              src="/images/descontracao.png"
+            />
             <h2>
               AMBIENTE DESCONTRAÍDO
             </h2>
@@ -1370,6 +1692,10 @@ ReactWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
+              <img
+                alt="descolado"
+                src="/images/descontracao.png"
+              />,
               <h2>
                 AMBIENTE DESCONTRAÍDO
               </h2>,
@@ -1380,6 +1706,23 @@ ReactWrapper {
           },
           "ref": null,
           "rendered": Array [
+            Object {
+              "instance": <img
+                alt="descolado"
+                src="/images/descontracao.png"
+              />,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "descolado",
+                "src": "/images/descontracao.png",
+              },
+              "ref": null,
+              "rendered": Array [
+                undefined,
+              ],
+              "type": "img",
+            },
             Object {
               "instance": <h2>
                 AMBIENTE DESCONTRAÍDO
@@ -1415,6 +1758,10 @@ ReactWrapper {
         },
         Object {
           "instance": <article>
+            <img
+              alt="desestressar"
+              src="/images/atividades.png"
+            />
             <h2>
               ATIVIDADES EXTRAS
             </h2>
@@ -1426,6 +1773,10 @@ ReactWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
+              <img
+                alt="desestressar"
+                src="/images/atividades.png"
+              />,
               <h2>
                 ATIVIDADES EXTRAS
               </h2>,
@@ -1436,6 +1787,23 @@ ReactWrapper {
           },
           "ref": null,
           "rendered": Array [
+            Object {
+              "instance": <img
+                alt="desestressar"
+                src="/images/atividades.png"
+              />,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "desestressar",
+                "src": "/images/atividades.png",
+              },
+              "ref": null,
+              "rendered": Array [
+                undefined,
+              ],
+              "type": "img",
+            },
             Object {
               "instance": <h2>
                 ATIVIDADES EXTRAS
@@ -1572,6 +1940,10 @@ ReactWrapper {
                       class="our-values"
                     >
                       <article>
+                        <img
+                          alt="feliz"
+                          src="/images/qualidade.png"
+                        />
                         <h2>
                           QUALIDADE DE VIDA
                         </h2>
@@ -1580,6 +1952,10 @@ ReactWrapper {
                         </p>
                       </article>
                       <article>
+                        <img
+                          alt="descolado"
+                          src="/images/descontracao.png"
+                        />
                         <h2>
                           AMBIENTE DESCONTRAÍDO
                         </h2>
@@ -1588,6 +1964,10 @@ ReactWrapper {
                         </p>
                       </article>
                       <article>
+                        <img
+                          alt="desestressar"
+                          src="/images/atividades.png"
+                        />
                         <h2>
                           ATIVIDADES EXTRAS
                         </h2>
@@ -1702,6 +2082,10 @@ ReactWrapper {
                     class="our-values"
                   >
                     <article>
+                      <img
+                        alt="feliz"
+                        src="/images/qualidade.png"
+                      />
                       <h2>
                         QUALIDADE DE VIDA
                       </h2>
@@ -1710,6 +2094,10 @@ ReactWrapper {
                       </p>
                     </article>
                     <article>
+                      <img
+                        alt="descolado"
+                        src="/images/descontracao.png"
+                      />
                       <h2>
                         AMBIENTE DESCONTRAÍDO
                       </h2>
@@ -1718,6 +2106,10 @@ ReactWrapper {
                       </p>
                     </article>
                     <article>
+                      <img
+                        alt="desestressar"
+                        src="/images/atividades.png"
+                      />
                       <h2>
                         ATIVIDADES EXTRAS
                       </h2>
@@ -1840,20 +2232,22 @@ ReactWrapper {
                 "childExpirationTime": 0,
                 "dependencies": null,
                 "effectTag": 0,
-                "elementType": "h2",
+                "elementType": "img",
                 "expirationTime": 0,
                 "firstEffect": null,
                 "index": 0,
                 "key": null,
                 "lastEffect": null,
                 "memoizedProps": Object {
-                  "children": "QUALIDADE DE VIDA",
+                  "alt": "feliz",
+                  "src": "/images/qualidade.png",
                 },
                 "memoizedState": null,
                 "mode": 0,
                 "nextEffect": null,
                 "pendingProps": Object {
-                  "children": "QUALIDADE DE VIDA",
+                  "alt": "feliz",
+                  "src": "/images/qualidade.png",
                 },
                 "ref": null,
                 "return": [Circular],
@@ -1872,121 +2266,27 @@ ReactWrapper {
                   "childExpirationTime": 0,
                   "dependencies": null,
                   "effectTag": 0,
-                  "elementType": "p",
+                  "elementType": "h2",
                   "expirationTime": 0,
                   "firstEffect": null,
                   "index": 1,
                   "key": null,
                   "lastEffect": null,
                   "memoizedProps": Object {
-                    "children": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+                    "children": "QUALIDADE DE VIDA",
                   },
                   "memoizedState": null,
                   "mode": 0,
                   "nextEffect": null,
                   "pendingProps": Object {
-                    "children": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
-                  },
-                  "ref": null,
-                  "return": [Circular],
-                  "selfBaseDuration": 0,
-                  "sibling": null,
-                  "stateNode": <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
-                  </p>,
-                  "tag": 5,
-                  "treeBaseDuration": 0,
-                  "type": "p",
-                  "updateQueue": null,
-                },
-                "stateNode": <h2>
-                  QUALIDADE DE VIDA
-                </h2>,
-                "tag": 5,
-                "treeBaseDuration": 0,
-                "type": "h2",
-                "updateQueue": null,
-              },
-              "childExpirationTime": 0,
-              "dependencies": null,
-              "effectTag": 0,
-              "elementType": "article",
-              "expirationTime": 0,
-              "firstEffect": null,
-              "index": 0,
-              "key": null,
-              "lastEffect": null,
-              "memoizedProps": Object {
-                "children": Array [
-                  <h2>
-                    QUALIDADE DE VIDA
-                  </h2>,
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
-                  </p>,
-                ],
-              },
-              "memoizedState": null,
-              "mode": 0,
-              "nextEffect": null,
-              "pendingProps": Object {
-                "children": Array [
-                  <h2>
-                    QUALIDADE DE VIDA
-                  </h2>,
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
-                  </p>,
-                ],
-              },
-              "ref": null,
-              "return": [Circular],
-              "selfBaseDuration": 0,
-              "sibling": FiberNode {
-                "_debugHookTypes": null,
-                "_debugID": 135,
-                "_debugIsCurrentlyTiming": false,
-                "_debugNeedsRemount": false,
-                "_debugOwner": [Circular],
-                "_debugSource": null,
-                "actualDuration": 0,
-                "actualStartTime": -1,
-                "alternate": null,
-                "child": FiberNode {
-                  "_debugHookTypes": null,
-                  "_debugID": 143,
-                  "_debugIsCurrentlyTiming": false,
-                  "_debugNeedsRemount": false,
-                  "_debugOwner": [Circular],
-                  "_debugSource": null,
-                  "actualDuration": 0,
-                  "actualStartTime": -1,
-                  "alternate": null,
-                  "child": null,
-                  "childExpirationTime": 0,
-                  "dependencies": null,
-                  "effectTag": 0,
-                  "elementType": "h2",
-                  "expirationTime": 0,
-                  "firstEffect": null,
-                  "index": 0,
-                  "key": null,
-                  "lastEffect": null,
-                  "memoizedProps": Object {
-                    "children": "AMBIENTE DESCONTRAÍDO",
-                  },
-                  "memoizedState": null,
-                  "mode": 0,
-                  "nextEffect": null,
-                  "pendingProps": Object {
-                    "children": "AMBIENTE DESCONTRAÍDO",
+                    "children": "QUALIDADE DE VIDA",
                   },
                   "ref": null,
                   "return": [Circular],
                   "selfBaseDuration": 0,
                   "sibling": FiberNode {
                     "_debugHookTypes": null,
-                    "_debugID": 144,
+                    "_debugID": 140,
                     "_debugIsCurrentlyTiming": false,
                     "_debugNeedsRemount": false,
                     "_debugOwner": [Circular],
@@ -2001,7 +2301,7 @@ ReactWrapper {
                     "elementType": "p",
                     "expirationTime": 0,
                     "firstEffect": null,
-                    "index": 1,
+                    "index": 2,
                     "key": null,
                     "lastEffect": null,
                     "memoizedProps": Object {
@@ -2026,51 +2326,78 @@ ReactWrapper {
                     "updateQueue": null,
                   },
                   "stateNode": <h2>
-                    AMBIENTE DESCONTRAÍDO
+                    QUALIDADE DE VIDA
                   </h2>,
                   "tag": 5,
                   "treeBaseDuration": 0,
                   "type": "h2",
                   "updateQueue": null,
                 },
-                "childExpirationTime": 0,
-                "dependencies": null,
-                "effectTag": 0,
-                "elementType": "article",
-                "expirationTime": 0,
-                "firstEffect": null,
-                "index": 1,
-                "key": null,
-                "lastEffect": null,
-                "memoizedProps": Object {
-                  "children": Array [
-                    <h2>
-                      AMBIENTE DESCONTRAÍDO
-                    </h2>,
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
-                    </p>,
-                  ],
-                },
-                "memoizedState": null,
-                "mode": 0,
-                "nextEffect": null,
-                "pendingProps": Object {
-                  "children": Array [
-                    <h2>
-                      AMBIENTE DESCONTRAÍDO
-                    </h2>,
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
-                    </p>,
-                  ],
-                },
-                "ref": null,
-                "return": [Circular],
-                "selfBaseDuration": 0,
-                "sibling": FiberNode {
+                "stateNode": <img
+                  alt="feliz"
+                  src="/images/qualidade.png"
+                />,
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": "img",
+                "updateQueue": null,
+              },
+              "childExpirationTime": 0,
+              "dependencies": null,
+              "effectTag": 0,
+              "elementType": "article",
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": Array [
+                  <img
+                    alt="feliz"
+                    src="/images/qualidade.png"
+                  />,
+                  <h2>
+                    QUALIDADE DE VIDA
+                  </h2>,
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
+                  </p>,
+                ],
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": Array [
+                  <img
+                    alt="feliz"
+                    src="/images/qualidade.png"
+                  />,
+                  <h2>
+                    QUALIDADE DE VIDA
+                  </h2>,
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
+                  </p>,
+                ],
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": FiberNode {
+                "_debugHookTypes": null,
+                "_debugID": 135,
+                "_debugIsCurrentlyTiming": false,
+                "_debugNeedsRemount": false,
+                "_debugOwner": [Circular],
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": FiberNode {
                   "_debugHookTypes": null,
-                  "_debugID": 136,
+                  "_debugID": 145,
                   "_debugIsCurrentlyTiming": false,
                   "_debugNeedsRemount": false,
                   "_debugOwner": [Circular],
@@ -2078,9 +2405,33 @@ ReactWrapper {
                   "actualDuration": 0,
                   "actualStartTime": -1,
                   "alternate": null,
-                  "child": FiberNode {
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "dependencies": null,
+                  "effectTag": 0,
+                  "elementType": "img",
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "alt": "descolado",
+                    "src": "/images/descontracao.png",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "alt": "descolado",
+                    "src": "/images/descontracao.png",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": FiberNode {
                     "_debugHookTypes": null,
-                    "_debugID": 148,
+                    "_debugID": 146,
                     "_debugIsCurrentlyTiming": false,
                     "_debugNeedsRemount": false,
                     "_debugOwner": [Circular],
@@ -2095,24 +2446,24 @@ ReactWrapper {
                     "elementType": "h2",
                     "expirationTime": 0,
                     "firstEffect": null,
-                    "index": 0,
+                    "index": 1,
                     "key": null,
                     "lastEffect": null,
                     "memoizedProps": Object {
-                      "children": "ATIVIDADES EXTRAS",
+                      "children": "AMBIENTE DESCONTRAÍDO",
                     },
                     "memoizedState": null,
                     "mode": 0,
                     "nextEffect": null,
                     "pendingProps": Object {
-                      "children": "ATIVIDADES EXTRAS",
+                      "children": "AMBIENTE DESCONTRAÍDO",
                     },
                     "ref": null,
                     "return": [Circular],
                     "selfBaseDuration": 0,
                     "sibling": FiberNode {
                       "_debugHookTypes": null,
-                      "_debugID": 149,
+                      "_debugID": 147,
                       "_debugIsCurrentlyTiming": false,
                       "_debugNeedsRemount": false,
                       "_debugOwner": [Circular],
@@ -2127,7 +2478,7 @@ ReactWrapper {
                       "elementType": "p",
                       "expirationTime": 0,
                       "firstEffect": null,
-                      "index": 1,
+                      "index": 2,
                       "key": null,
                       "lastEffect": null,
                       "memoizedProps": Object {
@@ -2152,11 +2503,197 @@ ReactWrapper {
                       "updateQueue": null,
                     },
                     "stateNode": <h2>
-                      ATIVIDADES EXTRAS
+                      AMBIENTE DESCONTRAÍDO
                     </h2>,
                     "tag": 5,
                     "treeBaseDuration": 0,
                     "type": "h2",
+                    "updateQueue": null,
+                  },
+                  "stateNode": <img
+                    alt="descolado"
+                    src="/images/descontracao.png"
+                  />,
+                  "tag": 5,
+                  "treeBaseDuration": 0,
+                  "type": "img",
+                  "updateQueue": null,
+                },
+                "childExpirationTime": 0,
+                "dependencies": null,
+                "effectTag": 0,
+                "elementType": "article",
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 1,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": Array [
+                    <img
+                      alt="descolado"
+                      src="/images/descontracao.png"
+                    />,
+                    <h2>
+                      AMBIENTE DESCONTRAÍDO
+                    </h2>,
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
+                    </p>,
+                  ],
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": Array [
+                    <img
+                      alt="descolado"
+                      src="/images/descontracao.png"
+                    />,
+                    <h2>
+                      AMBIENTE DESCONTRAÍDO
+                    </h2>,
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
+                    </p>,
+                  ],
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": FiberNode {
+                  "_debugHookTypes": null,
+                  "_debugID": 136,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugNeedsRemount": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": FiberNode {
+                    "_debugHookTypes": null,
+                    "_debugID": 152,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugNeedsRemount": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "dependencies": null,
+                    "effectTag": 0,
+                    "elementType": "img",
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "alt": "desestressar",
+                      "src": "/images/atividades.png",
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "alt": "desestressar",
+                      "src": "/images/atividades.png",
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": FiberNode {
+                      "_debugHookTypes": null,
+                      "_debugID": 153,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugNeedsRemount": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": null,
+                      "actualDuration": 0,
+                      "actualStartTime": -1,
+                      "alternate": null,
+                      "child": null,
+                      "childExpirationTime": 0,
+                      "dependencies": null,
+                      "effectTag": 0,
+                      "elementType": "h2",
+                      "expirationTime": 0,
+                      "firstEffect": null,
+                      "index": 1,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "children": "ATIVIDADES EXTRAS",
+                      },
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": Object {
+                        "children": "ATIVIDADES EXTRAS",
+                      },
+                      "ref": null,
+                      "return": [Circular],
+                      "selfBaseDuration": 0,
+                      "sibling": FiberNode {
+                        "_debugHookTypes": null,
+                        "_debugID": 154,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugNeedsRemount": false,
+                        "_debugOwner": [Circular],
+                        "_debugSource": null,
+                        "actualDuration": 0,
+                        "actualStartTime": -1,
+                        "alternate": null,
+                        "child": null,
+                        "childExpirationTime": 0,
+                        "dependencies": null,
+                        "effectTag": 0,
+                        "elementType": "p",
+                        "expirationTime": 0,
+                        "firstEffect": null,
+                        "index": 2,
+                        "key": null,
+                        "lastEffect": null,
+                        "memoizedProps": Object {
+                          "children": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+                        },
+                        "memoizedState": null,
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": Object {
+                          "children": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+                        },
+                        "ref": null,
+                        "return": [Circular],
+                        "selfBaseDuration": 0,
+                        "sibling": null,
+                        "stateNode": <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
+                        </p>,
+                        "tag": 5,
+                        "treeBaseDuration": 0,
+                        "type": "p",
+                        "updateQueue": null,
+                      },
+                      "stateNode": <h2>
+                        ATIVIDADES EXTRAS
+                      </h2>,
+                      "tag": 5,
+                      "treeBaseDuration": 0,
+                      "type": "h2",
+                      "updateQueue": null,
+                    },
+                    "stateNode": <img
+                      alt="desestressar"
+                      src="/images/atividades.png"
+                    />,
+                    "tag": 5,
+                    "treeBaseDuration": 0,
+                    "type": "img",
                     "updateQueue": null,
                   },
                   "childExpirationTime": 0,
@@ -2170,6 +2707,10 @@ ReactWrapper {
                   "lastEffect": null,
                   "memoizedProps": Object {
                     "children": Array [
+                      <img
+                        alt="desestressar"
+                        src="/images/atividades.png"
+                      />,
                       <h2>
                         ATIVIDADES EXTRAS
                       </h2>,
@@ -2183,6 +2724,10 @@ ReactWrapper {
                   "nextEffect": null,
                   "pendingProps": Object {
                     "children": Array [
+                      <img
+                        alt="desestressar"
+                        src="/images/atividades.png"
+                      />,
                       <h2>
                         ATIVIDADES EXTRAS
                       </h2>,
@@ -2196,6 +2741,10 @@ ReactWrapper {
                   "selfBaseDuration": 0,
                   "sibling": null,
                   "stateNode": <article>
+                    <img
+                      alt="desestressar"
+                      src="/images/atividades.png"
+                    />
                     <h2>
                       ATIVIDADES EXTRAS
                     </h2>
@@ -2209,6 +2758,10 @@ ReactWrapper {
                   "updateQueue": null,
                 },
                 "stateNode": <article>
+                  <img
+                    alt="descolado"
+                    src="/images/descontracao.png"
+                  />
                   <h2>
                     AMBIENTE DESCONTRAÍDO
                   </h2>
@@ -2222,6 +2775,10 @@ ReactWrapper {
                 "updateQueue": null,
               },
               "stateNode": <article>
+                <img
+                  alt="feliz"
+                  src="/images/qualidade.png"
+                />
                 <h2>
                   QUALIDADE DE VIDA
                 </h2>
@@ -2246,6 +2803,10 @@ ReactWrapper {
             "memoizedProps": Object {
               "children": Array [
                 <article>
+                  <img
+                    alt="feliz"
+                    src="/images/qualidade.png"
+                  />
                   <h2>
                     QUALIDADE DE VIDA
                   </h2>
@@ -2254,6 +2815,10 @@ ReactWrapper {
                   </p>
                 </article>,
                 <article>
+                  <img
+                    alt="descolado"
+                    src="/images/descontracao.png"
+                  />
                   <h2>
                     AMBIENTE DESCONTRAÍDO
                   </h2>
@@ -2262,6 +2827,10 @@ ReactWrapper {
                   </p>
                 </article>,
                 <article>
+                  <img
+                    alt="desestressar"
+                    src="/images/atividades.png"
+                  />
                   <h2>
                     ATIVIDADES EXTRAS
                   </h2>
@@ -2278,6 +2847,10 @@ ReactWrapper {
             "pendingProps": Object {
               "children": Array [
                 <article>
+                  <img
+                    alt="feliz"
+                    src="/images/qualidade.png"
+                  />
                   <h2>
                     QUALIDADE DE VIDA
                   </h2>
@@ -2286,6 +2859,10 @@ ReactWrapper {
                   </p>
                 </article>,
                 <article>
+                  <img
+                    alt="descolado"
+                    src="/images/descontracao.png"
+                  />
                   <h2>
                     AMBIENTE DESCONTRAÍDO
                   </h2>
@@ -2294,6 +2871,10 @@ ReactWrapper {
                   </p>
                 </article>,
                 <article>
+                  <img
+                    alt="desestressar"
+                    src="/images/atividades.png"
+                  />
                   <h2>
                     ATIVIDADES EXTRAS
                   </h2>
@@ -2312,6 +2893,10 @@ ReactWrapper {
               class="our-values"
             >
               <article>
+                <img
+                  alt="feliz"
+                  src="/images/qualidade.png"
+                />
                 <h2>
                   QUALIDADE DE VIDA
                 </h2>
@@ -2320,6 +2905,10 @@ ReactWrapper {
                 </p>
               </article>
               <article>
+                <img
+                  alt="descolado"
+                  src="/images/descontracao.png"
+                />
                 <h2>
                   AMBIENTE DESCONTRAÍDO
                 </h2>
@@ -2328,6 +2917,10 @@ ReactWrapper {
                 </p>
               </article>
               <article>
+                <img
+                  alt="desestressar"
+                  src="/images/atividades.png"
+                />
                 <h2>
                   ATIVIDADES EXTRAS
                 </h2>
@@ -2446,6 +3039,10 @@ ReactWrapper {
                       class="our-values"
                     >
                       <article>
+                        <img
+                          alt="feliz"
+                          src="/images/qualidade.png"
+                        />
                         <h2>
                           QUALIDADE DE VIDA
                         </h2>
@@ -2454,6 +3051,10 @@ ReactWrapper {
                         </p>
                       </article>
                       <article>
+                        <img
+                          alt="descolado"
+                          src="/images/descontracao.png"
+                        />
                         <h2>
                           AMBIENTE DESCONTRAÍDO
                         </h2>
@@ -2462,6 +3063,10 @@ ReactWrapper {
                         </p>
                       </article>
                       <article>
+                        <img
+                          alt="desestressar"
+                          src="/images/atividades.png"
+                        />
                         <h2>
                           ATIVIDADES EXTRAS
                         </h2>
@@ -2576,6 +3181,10 @@ ReactWrapper {
                     class="our-values"
                   >
                     <article>
+                      <img
+                        alt="feliz"
+                        src="/images/qualidade.png"
+                      />
                       <h2>
                         QUALIDADE DE VIDA
                       </h2>
@@ -2584,6 +3193,10 @@ ReactWrapper {
                       </p>
                     </article>
                     <article>
+                      <img
+                        alt="descolado"
+                        src="/images/descontracao.png"
+                      />
                       <h2>
                         AMBIENTE DESCONTRAÍDO
                       </h2>
@@ -2592,6 +3205,10 @@ ReactWrapper {
                       </p>
                     </article>
                     <article>
+                      <img
+                        alt="desestressar"
+                        src="/images/atividades.png"
+                      />
                       <h2>
                         ATIVIDADES EXTRAS
                       </h2>
@@ -2686,6 +3303,26 @@ ReactWrapper {
         },
         "_reactInternalInstance": Object {},
         "context": Object {},
+        "ourValues": Array [
+          Object {
+            "altImg": "feliz",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+            "image": "/images/qualidade.png",
+            "title": "QUALIDADE DE VIDA",
+          },
+          Object {
+            "altImg": "descolado",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+            "image": "/images/descontracao.png",
+            "title": "AMBIENTE DESCONTRAÍDO",
+          },
+          Object {
+            "altImg": "desestressar",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+            "image": "/images/atividades.png",
+            "title": "ATIVIDADES EXTRAS",
+          },
+        ],
         "props": Object {},
         "refs": Object {},
         "render": [Function],
@@ -2706,6 +3343,10 @@ ReactWrapper {
           class="our-values"
         >
           <article>
+            <img
+              alt="feliz"
+              src="/images/qualidade.png"
+            />
             <h2>
               QUALIDADE DE VIDA
             </h2>
@@ -2714,6 +3355,10 @@ ReactWrapper {
             </p>
           </article>
           <article>
+            <img
+              alt="descolado"
+              src="/images/descontracao.png"
+            />
             <h2>
               AMBIENTE DESCONTRAÍDO
             </h2>
@@ -2722,6 +3367,10 @@ ReactWrapper {
             </p>
           </article>
           <article>
+            <img
+              alt="desestressar"
+              src="/images/atividades.png"
+            />
             <h2>
               ATIVIDADES EXTRAS
             </h2>
@@ -2735,6 +3384,10 @@ ReactWrapper {
         "props": Object {
           "children": Array [
             <article>
+              <img
+                alt="feliz"
+                src="/images/qualidade.png"
+              />
               <h2>
                 QUALIDADE DE VIDA
               </h2>
@@ -2743,6 +3396,10 @@ ReactWrapper {
               </p>
             </article>,
             <article>
+              <img
+                alt="descolado"
+                src="/images/descontracao.png"
+              />
               <h2>
                 AMBIENTE DESCONTRAÍDO
               </h2>
@@ -2751,6 +3408,10 @@ ReactWrapper {
               </p>
             </article>,
             <article>
+              <img
+                alt="desestressar"
+                src="/images/atividades.png"
+              />
               <h2>
                 ATIVIDADES EXTRAS
               </h2>
@@ -2765,6 +3426,10 @@ ReactWrapper {
         "rendered": Array [
           Object {
             "instance": <article>
+              <img
+                alt="feliz"
+                src="/images/qualidade.png"
+              />
               <h2>
                 QUALIDADE DE VIDA
               </h2>
@@ -2776,6 +3441,10 @@ ReactWrapper {
             "nodeType": "host",
             "props": Object {
               "children": Array [
+                <img
+                  alt="feliz"
+                  src="/images/qualidade.png"
+                />,
                 <h2>
                   QUALIDADE DE VIDA
                 </h2>,
@@ -2786,6 +3455,23 @@ ReactWrapper {
             },
             "ref": null,
             "rendered": Array [
+              Object {
+                "instance": <img
+                  alt="feliz"
+                  src="/images/qualidade.png"
+                />,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "feliz",
+                  "src": "/images/qualidade.png",
+                },
+                "ref": null,
+                "rendered": Array [
+                  undefined,
+                ],
+                "type": "img",
+              },
               Object {
                 "instance": <h2>
                   QUALIDADE DE VIDA
@@ -2821,6 +3507,10 @@ ReactWrapper {
           },
           Object {
             "instance": <article>
+              <img
+                alt="descolado"
+                src="/images/descontracao.png"
+              />
               <h2>
                 AMBIENTE DESCONTRAÍDO
               </h2>
@@ -2832,6 +3522,10 @@ ReactWrapper {
             "nodeType": "host",
             "props": Object {
               "children": Array [
+                <img
+                  alt="descolado"
+                  src="/images/descontracao.png"
+                />,
                 <h2>
                   AMBIENTE DESCONTRAÍDO
                 </h2>,
@@ -2842,6 +3536,23 @@ ReactWrapper {
             },
             "ref": null,
             "rendered": Array [
+              Object {
+                "instance": <img
+                  alt="descolado"
+                  src="/images/descontracao.png"
+                />,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "descolado",
+                  "src": "/images/descontracao.png",
+                },
+                "ref": null,
+                "rendered": Array [
+                  undefined,
+                ],
+                "type": "img",
+              },
               Object {
                 "instance": <h2>
                   AMBIENTE DESCONTRAÍDO
@@ -2877,6 +3588,10 @@ ReactWrapper {
           },
           Object {
             "instance": <article>
+              <img
+                alt="desestressar"
+                src="/images/atividades.png"
+              />
               <h2>
                 ATIVIDADES EXTRAS
               </h2>
@@ -2888,6 +3603,10 @@ ReactWrapper {
             "nodeType": "host",
             "props": Object {
               "children": Array [
+                <img
+                  alt="desestressar"
+                  src="/images/atividades.png"
+                />,
                 <h2>
                   ATIVIDADES EXTRAS
                 </h2>,
@@ -2898,6 +3617,23 @@ ReactWrapper {
             },
             "ref": null,
             "rendered": Array [
+              Object {
+                "instance": <img
+                  alt="desestressar"
+                  src="/images/atividades.png"
+                />,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "desestressar",
+                  "src": "/images/atividades.png",
+                },
+                "ref": null,
+                "rendered": Array [
+                  undefined,
+                ],
+                "type": "img",
+              },
               Object {
                 "instance": <h2>
                   ATIVIDADES EXTRAS
