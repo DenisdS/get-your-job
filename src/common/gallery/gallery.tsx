@@ -26,7 +26,7 @@ export default class GalleryComponent extends PureComponent {
     const squad = this.squad
 
     return (
-      <div>
+      <section className="squad">
         <h2>
           CONHEÇA NOSSO TIME <br />
           FORA DE SÉRIE
@@ -41,7 +41,7 @@ export default class GalleryComponent extends PureComponent {
             ))
           }
         </ul>
-      </div>
+      </section>
     )
   }
 }
