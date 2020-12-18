@@ -17,5 +17,9 @@ h3 {
 }
 
 p {
-  font-size: TEXT_SIZE
+  font-size: $TEXT_SIZE;
+}
+
+.about {
+  background: $SPOTLIGHT_COLOR;
 }
