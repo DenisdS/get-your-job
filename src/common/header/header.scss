@@ -1,0 +1,8 @@
+@import '../../style/variables.scss';
+
+header {
+  background-image: url($HEADER_IMAGE);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 960px 450px;
+}

@@ -2,6 +2,7 @@
 
 * {
   font-family: sans-serif;
+  margin: 0 auto;
 }
 
 ul {
@@ -10,14 +11,17 @@ ul {
 
 h1 {
   font-size: $PRIMARY_SIZE;
+  color: $PRIMARY_COLOR;
 }
 
 h2 {
   font-size: $SECOUNDARY_SIZE;
+  color: $SECOUNDARY_COLOR;
 }
 
 h3 {
   font-size: $TERCIARY_SIZE;
+  color: $TERCIARY_COLOR;
 }
 
 p {
