@@ -4,6 +4,7 @@
 * {
   font-family: sans-serif;
   margin: 0 auto;
+  padding: 0;
   text-decoration: none;
 }
 
@@ -45,12 +46,15 @@ a {
   position: absolute;
   width: 960px;
 
+  // About
   .about {
     background: $SPOTLIGHT_COLOR;
+    height: 660px;
 
     article {
-      width: 90%;
+      height: 270px;
       padding-top: 45px;
+      width: 90%;
 
       img {
         float: left;
@@ -68,6 +72,22 @@ a {
         h3 {
           font-style: italic;
           padding-bottom: 20px;
+        }
+      }
+    }
+
+    // Squad
+    .squad {
+      text-align: center;
+      width: 100%;
+
+      ul {
+        padding-top: 45px;
+        width: 100%;
+
+        li {
+          display: inline;
+          padding-left: 10px;
         }
       }
     }
