@@ -39,6 +39,37 @@ a {
 }
 
 // Sections
-.about {
-  background: $SPOTLIGHT_COLOR;
+#root{
+  left: 50%;
+  margin-left: -480px;
+  position: absolute;
+  width: 960px;
+
+  .about {
+    background: $SPOTLIGHT_COLOR;
+
+    article {
+      width: 90%;
+      padding-top: 45px;
+
+      img {
+        float: left;
+      }
+
+      .content-article {
+        float: left;
+        padding-left: 30px;
+        width: 50%;
+
+        h2 {
+          padding-bottom: 7px;
+        }
+
+        h3 {
+          font-style: italic;
+          padding-bottom: 20px;
+        }
+      }
+    }
+  }
 }

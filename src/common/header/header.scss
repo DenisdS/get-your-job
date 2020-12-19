@@ -5,19 +5,19 @@ header {
   background-position: top center;
   background-repeat: no-repeat;
   background-size: 960px 450px;
-  height: 640px;
+  height: 735px;
   text-align: center;
 
   h1 {
     position: absolute;
-    top: 37%;
+    top: 10.5%;
     width: 100%;
   }
 
   p {
     position: absolute;
     left: 8%;
-    top: 65%;
+    top: 18.5%;
     width: 84%;
   }
 
@@ -25,7 +25,7 @@ header {
     position: absolute;
     background: $SECOUNDARY_COLOR;
     margin-left: 40%;
-    top: 74%;
+    top: 21.5%;
     width: 20%;
   }
 
@@ -33,7 +33,7 @@ header {
     position: absolute;
     width: 100%;
     margin-left: -49.5%;
-    top: 77%;
+    top: 22.5%;
 
     span {
      font-size: 13px;

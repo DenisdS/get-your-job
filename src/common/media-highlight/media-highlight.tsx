@@ -14,6 +14,7 @@ export default class MediaHighlightComponent extends PureComponent {
             src={this.imgThumbTalkCEO}
             alt="talk com o CEO"
           />
+          <div className='content-article'>
           <h2>PALAVRA DO CEO</h2>
           <h3>Carlos Curioni</h3>
 
@@ -24,6 +25,7 @@ export default class MediaHighlightComponent extends PureComponent {
             nisi ut aliquid ex ea commodi consequatur.
             Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           </p>
+          </div>
         </article>
       </>
     )
