@@ -165,4 +165,42 @@ a {
       }
     }
   }
+
+  // Tools Accessibility
+  .toolsAccessibility {
+    background: #000;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: $TERCIARY_SIZE;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+  }
+}
+
+// Accessibility
+.home-contrast, .home-contrast .about  {
+  background: #000 !important;
+
+  h1 {
+    color: #000 !important;
+  }
+
+  h2, h3, a, a span{
+    color: yellow !important;
+  }
+
+  p {
+    color: $PRIMARY_COLOR !important;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+
+  .toolsAccessibility {
+    background: #fff !important;
+    color: #000 !important;
+  }
 }
