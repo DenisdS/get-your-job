@@ -3,6 +3,8 @@ import React, {
   ReactElement }
 from 'react'
 
+import fetch from 'isomorphic-fetch'
+
 import { Occupations } from '../common'
 
 import '../style/variables.scss'

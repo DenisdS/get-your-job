@@ -3,7 +3,6 @@ import { mount } from 'enzyme'
 
 import Jobs from './index'
 
-
 const createComponent = () => {
   const wrapper = mount(<Jobs  />)
   const unmount = () => wrapper.unmount()
