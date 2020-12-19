@@ -111,15 +111,19 @@ ReactWrapper {
                       alt="talk com o CEO"
                       src="/images/placeholder-video.png"
                     />
-                    <h2>
-                      PALAVRA DO CEO
-                    </h2>
-                    <h3>
-                      Carlos Curioni
-                    </h3>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    </p>
+                    <div
+                      class="content-article"
+                    >
+                      <h2>
+                        PALAVRA DO CEO
+                      </h2>
+                      <h3>
+                        Carlos Curioni
+                      </h3>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                      </p>
+                    </div>
                   </article>
                 </div>,
                 "context": Object {},
@@ -228,15 +232,19 @@ ReactWrapper {
                     alt="talk com o CEO"
                     src="/images/placeholder-video.png"
                   />
-                  <h2>
-                    PALAVRA DO CEO
-                  </h2>
-                  <h3>
-                    Carlos Curioni
-                  </h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                  </p>
+                  <div
+                    class="content-article"
+                  >
+                    <h2>
+                      PALAVRA DO CEO
+                    </h2>
+                    <h3>
+                      Carlos Curioni
+                    </h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                  </div>
                 </article>
               </div>,
               "context": Object {},
@@ -372,31 +380,9 @@ ReactWrapper {
               "actualDuration": 0,
               "actualStartTime": -1,
               "alternate": null,
-              "child": null,
-              "childExpirationTime": 0,
-              "dependencies": null,
-              "effectTag": 0,
-              "elementType": "h2",
-              "expirationTime": 0,
-              "firstEffect": null,
-              "index": 1,
-              "key": null,
-              "lastEffect": null,
-              "memoizedProps": Object {
-                "children": "PALAVRA DO CEO",
-              },
-              "memoizedState": null,
-              "mode": 0,
-              "nextEffect": null,
-              "pendingProps": Object {
-                "children": "PALAVRA DO CEO",
-              },
-              "ref": null,
-              "return": [Circular],
-              "selfBaseDuration": 0,
-              "sibling": FiberNode {
+              "child": FiberNode {
                 "_debugHookTypes": null,
-                "_debugID": 136,
+                "_debugID": 138,
                 "_debugIsCurrentlyTiming": false,
                 "_debugNeedsRemount": false,
                 "_debugOwner": [Circular],
@@ -408,27 +394,27 @@ ReactWrapper {
                 "childExpirationTime": 0,
                 "dependencies": null,
                 "effectTag": 0,
-                "elementType": "h3",
+                "elementType": "h2",
                 "expirationTime": 0,
                 "firstEffect": null,
-                "index": 2,
+                "index": 0,
                 "key": null,
                 "lastEffect": null,
                 "memoizedProps": Object {
-                  "children": "Carlos Curioni",
+                  "children": "PALAVRA DO CEO",
                 },
                 "memoizedState": null,
                 "mode": 0,
                 "nextEffect": null,
                 "pendingProps": Object {
-                  "children": "Carlos Curioni",
+                  "children": "PALAVRA DO CEO",
                 },
                 "ref": null,
                 "return": [Circular],
                 "selfBaseDuration": 0,
                 "sibling": FiberNode {
                   "_debugHookTypes": null,
-                  "_debugID": 137,
+                  "_debugID": 139,
                   "_debugIsCurrentlyTiming": false,
                   "_debugNeedsRemount": false,
                   "_debugOwner": [Circular],
@@ -440,47 +426,141 @@ ReactWrapper {
                   "childExpirationTime": 0,
                   "dependencies": null,
                   "effectTag": 0,
-                  "elementType": "p",
+                  "elementType": "h3",
                   "expirationTime": 0,
                   "firstEffect": null,
-                  "index": 3,
+                  "index": 1,
                   "key": null,
                   "lastEffect": null,
                   "memoizedProps": Object {
-                    "children": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                    "children": "Carlos Curioni",
                   },
                   "memoizedState": null,
                   "mode": 0,
                   "nextEffect": null,
                   "pendingProps": Object {
-                    "children": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                    "children": "Carlos Curioni",
                   },
                   "ref": null,
                   "return": [Circular],
                   "selfBaseDuration": 0,
-                  "sibling": null,
-                  "stateNode": <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                  </p>,
+                  "sibling": FiberNode {
+                    "_debugHookTypes": null,
+                    "_debugID": 140,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugNeedsRemount": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "dependencies": null,
+                    "effectTag": 0,
+                    "elementType": "p",
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 2,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </p>,
+                    "tag": 5,
+                    "treeBaseDuration": 0,
+                    "type": "p",
+                    "updateQueue": null,
+                  },
+                  "stateNode": <h3>
+                    Carlos Curioni
+                  </h3>,
                   "tag": 5,
                   "treeBaseDuration": 0,
-                  "type": "p",
+                  "type": "h3",
                   "updateQueue": null,
                 },
-                "stateNode": <h3>
-                  Carlos Curioni
-                </h3>,
+                "stateNode": <h2>
+                  PALAVRA DO CEO
+                </h2>,
                 "tag": 5,
                 "treeBaseDuration": 0,
-                "type": "h3",
+                "type": "h2",
                 "updateQueue": null,
               },
-              "stateNode": <h2>
-                PALAVRA DO CEO
-              </h2>,
+              "childExpirationTime": 0,
+              "dependencies": null,
+              "effectTag": 0,
+              "elementType": "div",
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 1,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": Array [
+                  <h2>
+                    PALAVRA DO CEO
+                  </h2>,
+                  <h3>
+                    Carlos Curioni
+                  </h3>,
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  </p>,
+                ],
+                "className": "content-article",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": Array [
+                  <h2>
+                    PALAVRA DO CEO
+                  </h2>,
+                  <h3>
+                    Carlos Curioni
+                  </h3>,
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  </p>,
+                ],
+                "className": "content-article",
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": <div
+                class="content-article"
+              >
+                <h2>
+                  PALAVRA DO CEO
+                </h2>
+                <h3>
+                  Carlos Curioni
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p>
+              </div>,
               "tag": 5,
               "treeBaseDuration": 0,
-              "type": "h2",
+              "type": "div",
               "updateQueue": null,
             },
             "stateNode": <img
@@ -507,15 +587,19 @@ ReactWrapper {
                 alt="talk com o CEO"
                 src="/images/placeholder-video.png"
               />,
-              <h2>
-                PALAVRA DO CEO
-              </h2>,
-              <h3>
-                Carlos Curioni
-              </h3>,
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              </p>,
+              <div
+                className="content-article"
+              >
+                <h2>
+                  PALAVRA DO CEO
+                </h2>
+                <h3>
+                  Carlos Curioni
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p>
+              </div>,
             ],
           },
           "memoizedState": null,
@@ -527,15 +611,19 @@ ReactWrapper {
                 alt="talk com o CEO"
                 src="/images/placeholder-video.png"
               />,
-              <h2>
-                PALAVRA DO CEO
-              </h2>,
-              <h3>
-                Carlos Curioni
-              </h3>,
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              </p>,
+              <div
+                className="content-article"
+              >
+                <h2>
+                  PALAVRA DO CEO
+                </h2>
+                <h3>
+                  Carlos Curioni
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p>
+              </div>,
             ],
           },
           "ref": null,
@@ -547,15 +635,19 @@ ReactWrapper {
               alt="talk com o CEO"
               src="/images/placeholder-video.png"
             />
-            <h2>
-              PALAVRA DO CEO
-            </h2>
-            <h3>
-              Carlos Curioni
-            </h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            </p>
+            <div
+              class="content-article"
+            >
+              <h2>
+                PALAVRA DO CEO
+              </h2>
+              <h3>
+                Carlos Curioni
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              </p>
+            </div>
           </article>,
           "tag": 5,
           "treeBaseDuration": 0,
@@ -668,15 +760,19 @@ ReactWrapper {
                       alt="talk com o CEO"
                       src="/images/placeholder-video.png"
                     />
-                    <h2>
-                      PALAVRA DO CEO
-                    </h2>
-                    <h3>
-                      Carlos Curioni
-                    </h3>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    </p>
+                    <div
+                      class="content-article"
+                    >
+                      <h2>
+                        PALAVRA DO CEO
+                      </h2>
+                      <h3>
+                        Carlos Curioni
+                      </h3>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                      </p>
+                    </div>
                   </article>
                 </div>,
                 "context": Object {},
@@ -785,15 +881,19 @@ ReactWrapper {
                     alt="talk com o CEO"
                     src="/images/placeholder-video.png"
                   />
-                  <h2>
-                    PALAVRA DO CEO
-                  </h2>
-                  <h3>
-                    Carlos Curioni
-                  </h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                  </p>
+                  <div
+                    class="content-article"
+                  >
+                    <h2>
+                      PALAVRA DO CEO
+                    </h2>
+                    <h3>
+                      Carlos Curioni
+                    </h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                  </div>
                 </article>
               </div>,
               "context": Object {},
@@ -903,15 +1003,19 @@ ReactWrapper {
           alt="talk com o CEO"
           src="/images/placeholder-video.png"
         />
-        <h2>
-          PALAVRA DO CEO
-        </h2>
-        <h3>
-          Carlos Curioni
-        </h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-        </p>
+        <div
+          class="content-article"
+        >
+          <h2>
+            PALAVRA DO CEO
+          </h2>
+          <h3>
+            Carlos Curioni
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </p>
+        </div>
       </article>,
       "key": undefined,
       "nodeType": "host",
@@ -921,15 +1025,19 @@ ReactWrapper {
             alt="talk com o CEO"
             src="/images/placeholder-video.png"
           />,
-          <h2>
-            PALAVRA DO CEO
-          </h2>,
-          <h3>
-            Carlos Curioni
-          </h3>,
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          </p>,
+          <div
+            className="content-article"
+          >
+            <h2>
+              PALAVRA DO CEO
+            </h2>
+            <h3>
+              Carlos Curioni
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+          </div>,
         ],
       },
       "ref": null,
@@ -952,49 +1060,84 @@ ReactWrapper {
           "type": "img",
         },
         Object {
-          "instance": <h2>
-            PALAVRA DO CEO
-          </h2>,
+          "instance": <div
+            class="content-article"
+          >
+            <h2>
+              PALAVRA DO CEO
+            </h2>
+            <h3>
+              Carlos Curioni
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+          </div>,
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "PALAVRA DO CEO",
+            "children": Array [
+              <h2>
+                PALAVRA DO CEO
+              </h2>,
+              <h3>
+                Carlos Curioni
+              </h3>,
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              </p>,
+            ],
+            "className": "content-article",
           },
           "ref": null,
           "rendered": Array [
-            "PALAVRA DO CEO",
+            Object {
+              "instance": <h2>
+                PALAVRA DO CEO
+              </h2>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "PALAVRA DO CEO",
+              },
+              "ref": null,
+              "rendered": Array [
+                "PALAVRA DO CEO",
+              ],
+              "type": "h2",
+            },
+            Object {
+              "instance": <h3>
+                Carlos Curioni
+              </h3>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Carlos Curioni",
+              },
+              "ref": null,
+              "rendered": Array [
+                "Carlos Curioni",
+              ],
+              "type": "h3",
+            },
+            Object {
+              "instance": <p>
+                Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              </p>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+              },
+              "ref": null,
+              "rendered": Array [
+                "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+              ],
+              "type": "p",
+            },
           ],
-          "type": "h2",
-        },
-        Object {
-          "instance": <h3>
-            Carlos Curioni
-          </h3>,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Carlos Curioni",
-          },
-          "ref": null,
-          "rendered": Array [
-            "Carlos Curioni",
-          ],
-          "type": "h3",
-        },
-        Object {
-          "instance": <p>
-            Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          </p>,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-          },
-          "ref": null,
-          "rendered": Array [
-            "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-          ],
-          "type": "p",
+          "type": "div",
         },
       ],
       "type": "article",
@@ -1100,15 +1243,19 @@ ReactWrapper {
                         alt="talk com o CEO"
                         src="/images/placeholder-video.png"
                       />
-                      <h2>
-                        PALAVRA DO CEO
-                      </h2>
-                      <h3>
-                        Carlos Curioni
-                      </h3>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                      </p>
+                      <div
+                        class="content-article"
+                      >
+                        <h2>
+                          PALAVRA DO CEO
+                        </h2>
+                        <h3>
+                          Carlos Curioni
+                        </h3>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        </p>
+                      </div>
                     </article>
                   </div>,
                   "context": Object {},
@@ -1217,15 +1364,19 @@ ReactWrapper {
                       alt="talk com o CEO"
                       src="/images/placeholder-video.png"
                     />
-                    <h2>
-                      PALAVRA DO CEO
-                    </h2>
-                    <h3>
-                      Carlos Curioni
-                    </h3>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    </p>
+                    <div
+                      class="content-article"
+                    >
+                      <h2>
+                        PALAVRA DO CEO
+                      </h2>
+                      <h3>
+                        Carlos Curioni
+                      </h3>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                      </p>
+                    </div>
                   </article>
                 </div>,
                 "context": Object {},
@@ -1361,31 +1512,9 @@ ReactWrapper {
                 "actualDuration": 0,
                 "actualStartTime": -1,
                 "alternate": null,
-                "child": null,
-                "childExpirationTime": 0,
-                "dependencies": null,
-                "effectTag": 0,
-                "elementType": "h2",
-                "expirationTime": 0,
-                "firstEffect": null,
-                "index": 1,
-                "key": null,
-                "lastEffect": null,
-                "memoizedProps": Object {
-                  "children": "PALAVRA DO CEO",
-                },
-                "memoizedState": null,
-                "mode": 0,
-                "nextEffect": null,
-                "pendingProps": Object {
-                  "children": "PALAVRA DO CEO",
-                },
-                "ref": null,
-                "return": [Circular],
-                "selfBaseDuration": 0,
-                "sibling": FiberNode {
+                "child": FiberNode {
                   "_debugHookTypes": null,
-                  "_debugID": 136,
+                  "_debugID": 138,
                   "_debugIsCurrentlyTiming": false,
                   "_debugNeedsRemount": false,
                   "_debugOwner": [Circular],
@@ -1397,27 +1526,27 @@ ReactWrapper {
                   "childExpirationTime": 0,
                   "dependencies": null,
                   "effectTag": 0,
-                  "elementType": "h3",
+                  "elementType": "h2",
                   "expirationTime": 0,
                   "firstEffect": null,
-                  "index": 2,
+                  "index": 0,
                   "key": null,
                   "lastEffect": null,
                   "memoizedProps": Object {
-                    "children": "Carlos Curioni",
+                    "children": "PALAVRA DO CEO",
                   },
                   "memoizedState": null,
                   "mode": 0,
                   "nextEffect": null,
                   "pendingProps": Object {
-                    "children": "Carlos Curioni",
+                    "children": "PALAVRA DO CEO",
                   },
                   "ref": null,
                   "return": [Circular],
                   "selfBaseDuration": 0,
                   "sibling": FiberNode {
                     "_debugHookTypes": null,
-                    "_debugID": 137,
+                    "_debugID": 139,
                     "_debugIsCurrentlyTiming": false,
                     "_debugNeedsRemount": false,
                     "_debugOwner": [Circular],
@@ -1429,47 +1558,141 @@ ReactWrapper {
                     "childExpirationTime": 0,
                     "dependencies": null,
                     "effectTag": 0,
-                    "elementType": "p",
+                    "elementType": "h3",
                     "expirationTime": 0,
                     "firstEffect": null,
-                    "index": 3,
+                    "index": 1,
                     "key": null,
                     "lastEffect": null,
                     "memoizedProps": Object {
-                      "children": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                      "children": "Carlos Curioni",
                     },
                     "memoizedState": null,
                     "mode": 0,
                     "nextEffect": null,
                     "pendingProps": Object {
-                      "children": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                      "children": "Carlos Curioni",
                     },
                     "ref": null,
                     "return": [Circular],
                     "selfBaseDuration": 0,
-                    "sibling": null,
-                    "stateNode": <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    </p>,
+                    "sibling": FiberNode {
+                      "_debugHookTypes": null,
+                      "_debugID": 140,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugNeedsRemount": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": null,
+                      "actualDuration": 0,
+                      "actualStartTime": -1,
+                      "alternate": null,
+                      "child": null,
+                      "childExpirationTime": 0,
+                      "dependencies": null,
+                      "effectTag": 0,
+                      "elementType": "p",
+                      "expirationTime": 0,
+                      "firstEffect": null,
+                      "index": 2,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "children": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                      },
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": Object {
+                        "children": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                      },
+                      "ref": null,
+                      "return": [Circular],
+                      "selfBaseDuration": 0,
+                      "sibling": null,
+                      "stateNode": <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                      </p>,
+                      "tag": 5,
+                      "treeBaseDuration": 0,
+                      "type": "p",
+                      "updateQueue": null,
+                    },
+                    "stateNode": <h3>
+                      Carlos Curioni
+                    </h3>,
                     "tag": 5,
                     "treeBaseDuration": 0,
-                    "type": "p",
+                    "type": "h3",
                     "updateQueue": null,
                   },
-                  "stateNode": <h3>
-                    Carlos Curioni
-                  </h3>,
+                  "stateNode": <h2>
+                    PALAVRA DO CEO
+                  </h2>,
                   "tag": 5,
                   "treeBaseDuration": 0,
-                  "type": "h3",
+                  "type": "h2",
                   "updateQueue": null,
                 },
-                "stateNode": <h2>
-                  PALAVRA DO CEO
-                </h2>,
+                "childExpirationTime": 0,
+                "dependencies": null,
+                "effectTag": 0,
+                "elementType": "div",
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 1,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": Array [
+                    <h2>
+                      PALAVRA DO CEO
+                    </h2>,
+                    <h3>
+                      Carlos Curioni
+                    </h3>,
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </p>,
+                  ],
+                  "className": "content-article",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": Array [
+                    <h2>
+                      PALAVRA DO CEO
+                    </h2>,
+                    <h3>
+                      Carlos Curioni
+                    </h3>,
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </p>,
+                  ],
+                  "className": "content-article",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": <div
+                  class="content-article"
+                >
+                  <h2>
+                    PALAVRA DO CEO
+                  </h2>
+                  <h3>
+                    Carlos Curioni
+                  </h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  </p>
+                </div>,
                 "tag": 5,
                 "treeBaseDuration": 0,
-                "type": "h2",
+                "type": "div",
                 "updateQueue": null,
               },
               "stateNode": <img
@@ -1496,15 +1719,19 @@ ReactWrapper {
                   alt="talk com o CEO"
                   src="/images/placeholder-video.png"
                 />,
-                <h2>
-                  PALAVRA DO CEO
-                </h2>,
-                <h3>
-                  Carlos Curioni
-                </h3>,
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                </p>,
+                <div
+                  className="content-article"
+                >
+                  <h2>
+                    PALAVRA DO CEO
+                  </h2>
+                  <h3>
+                    Carlos Curioni
+                  </h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  </p>
+                </div>,
               ],
             },
             "memoizedState": null,
@@ -1516,15 +1743,19 @@ ReactWrapper {
                   alt="talk com o CEO"
                   src="/images/placeholder-video.png"
                 />,
-                <h2>
-                  PALAVRA DO CEO
-                </h2>,
-                <h3>
-                  Carlos Curioni
-                </h3>,
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                </p>,
+                <div
+                  className="content-article"
+                >
+                  <h2>
+                    PALAVRA DO CEO
+                  </h2>
+                  <h3>
+                    Carlos Curioni
+                  </h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  </p>
+                </div>,
               ],
             },
             "ref": null,
@@ -1536,15 +1767,19 @@ ReactWrapper {
                 alt="talk com o CEO"
                 src="/images/placeholder-video.png"
               />
-              <h2>
-                PALAVRA DO CEO
-              </h2>
-              <h3>
-                Carlos Curioni
-              </h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              </p>
+              <div
+                class="content-article"
+              >
+                <h2>
+                  PALAVRA DO CEO
+                </h2>
+                <h3>
+                  Carlos Curioni
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p>
+              </div>
             </article>,
             "tag": 5,
             "treeBaseDuration": 0,
@@ -1657,15 +1892,19 @@ ReactWrapper {
                         alt="talk com o CEO"
                         src="/images/placeholder-video.png"
                       />
-                      <h2>
-                        PALAVRA DO CEO
-                      </h2>
-                      <h3>
-                        Carlos Curioni
-                      </h3>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                      </p>
+                      <div
+                        class="content-article"
+                      >
+                        <h2>
+                          PALAVRA DO CEO
+                        </h2>
+                        <h3>
+                          Carlos Curioni
+                        </h3>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        </p>
+                      </div>
                     </article>
                   </div>,
                   "context": Object {},
@@ -1774,15 +2013,19 @@ ReactWrapper {
                       alt="talk com o CEO"
                       src="/images/placeholder-video.png"
                     />
-                    <h2>
-                      PALAVRA DO CEO
-                    </h2>
-                    <h3>
-                      Carlos Curioni
-                    </h3>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    </p>
+                    <div
+                      class="content-article"
+                    >
+                      <h2>
+                        PALAVRA DO CEO
+                      </h2>
+                      <h3>
+                        Carlos Curioni
+                      </h3>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                      </p>
+                    </div>
                   </article>
                 </div>,
                 "context": Object {},
@@ -1892,15 +2135,19 @@ ReactWrapper {
             alt="talk com o CEO"
             src="/images/placeholder-video.png"
           />
-          <h2>
-            PALAVRA DO CEO
-          </h2>
-          <h3>
-            Carlos Curioni
-          </h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          </p>
+          <div
+            class="content-article"
+          >
+            <h2>
+              PALAVRA DO CEO
+            </h2>
+            <h3>
+              Carlos Curioni
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+          </div>
         </article>,
         "key": undefined,
         "nodeType": "host",
@@ -1910,15 +2157,19 @@ ReactWrapper {
               alt="talk com o CEO"
               src="/images/placeholder-video.png"
             />,
-            <h2>
-              PALAVRA DO CEO
-            </h2>,
-            <h3>
-              Carlos Curioni
-            </h3>,
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            </p>,
+            <div
+              className="content-article"
+            >
+              <h2>
+                PALAVRA DO CEO
+              </h2>
+              <h3>
+                Carlos Curioni
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              </p>
+            </div>,
           ],
         },
         "ref": null,
@@ -1941,49 +2192,84 @@ ReactWrapper {
             "type": "img",
           },
           Object {
-            "instance": <h2>
-              PALAVRA DO CEO
-            </h2>,
+            "instance": <div
+              class="content-article"
+            >
+              <h2>
+                PALAVRA DO CEO
+              </h2>
+              <h3>
+                Carlos Curioni
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              </p>
+            </div>,
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "PALAVRA DO CEO",
+              "children": Array [
+                <h2>
+                  PALAVRA DO CEO
+                </h2>,
+                <h3>
+                  Carlos Curioni
+                </h3>,
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p>,
+              ],
+              "className": "content-article",
             },
             "ref": null,
             "rendered": Array [
-              "PALAVRA DO CEO",
+              Object {
+                "instance": <h2>
+                  PALAVRA DO CEO
+                </h2>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "PALAVRA DO CEO",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "PALAVRA DO CEO",
+                ],
+                "type": "h2",
+              },
+              Object {
+                "instance": <h3>
+                  Carlos Curioni
+                </h3>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Carlos Curioni",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Carlos Curioni",
+                ],
+                "type": "h3",
+              },
+              Object {
+                "instance": <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                ],
+                "type": "p",
+              },
             ],
-            "type": "h2",
-          },
-          Object {
-            "instance": <h3>
-              Carlos Curioni
-            </h3>,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Carlos Curioni",
-            },
-            "ref": null,
-            "rendered": Array [
-              "Carlos Curioni",
-            ],
-            "type": "h3",
-          },
-          Object {
-            "instance": <p>
-              Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            </p>,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-            },
-            "ref": null,
-            "rendered": Array [
-              "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-            ],
-            "type": "p",
+            "type": "div",
           },
         ],
         "type": "article",
