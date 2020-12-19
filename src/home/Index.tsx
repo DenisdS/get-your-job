@@ -58,7 +58,7 @@ export default class Home extends PureComponent<Props, State> {
 
     return (
       <div className="home" >
-        <p className="toolsAccessibility" onClick={this.checkAccessibility}>
+        <p className="toolsAccessibility" onClick={this.accessibility}>
           Acessibilidade - Contraste
         </p>
         <HeaderComponent />
