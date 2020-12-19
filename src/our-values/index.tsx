@@ -45,7 +45,7 @@ export default class OurValues extends PureComponent {
 
         <hr />
 
-        <a href="#jobs">SAIBA MAIS <span>{'>>'}</span></a>
+        <a href="https://www.elo7.com.br/sobre" target="_blank">SAIBA MAIS <span>{'>>'}</span></a>
       </section>
     )
   }
