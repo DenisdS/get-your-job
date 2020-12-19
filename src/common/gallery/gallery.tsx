@@ -34,7 +34,7 @@ export default class GalleryComponent extends PureComponent {
 
         <ul>
           {
-            squad.map((member) => (
+            squad.map(member => (
               <li>
                 <img src={member.photo} alt={member.name} />
               </li>

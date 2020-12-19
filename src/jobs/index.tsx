@@ -1,7 +1,11 @@
-import React, { PureComponent, ReactElement } from 'react'
-import { Occupations } from '../common';
+import React, {
+  PureComponent,
+  ReactElement }
+from 'react'
 
-import '../style/variables.scss';
+import { Occupations } from '../common'
+
+import '../style/variables.scss'
 
 type Props = {}
 
@@ -13,7 +17,7 @@ type State = {
 export default class Jobs extends PureComponent<Props, State> {
   imgBanner = `${process.env.PUBLIC_URL}/images/foto-bottom.png`
 
-  constructor(props) {
+  constructor(props: Props) {
     super(props)
 
     this.state = {
@@ -32,7 +36,7 @@ export default class Jobs extends PureComponent<Props, State> {
 
   getJobs = async (): Promise<void> => {
     const response = await fetch('http://www.mocky.io/v2/5d6fb6b1310000f89166087b')
-    let { vagas } = await response.json();
+    let { vagas } = await response.json()
 
     this.checkActivesJobs(vagas)
   }
@@ -87,7 +91,7 @@ export default class Jobs extends PureComponent<Props, State> {
 
         <ul>
           {
-            listJobs.map((job) => (
+            listJobs.map(job => (
               <li key={job.id}>
                 <a href={job.link} target="_blank">
                   {job.cargo}

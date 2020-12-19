@@ -2,8 +2,6 @@ import React, {
   PureComponent,
   ReactElement
 } from 'react'
-
-import { Link } from 'react-router-dom'
 export default class OurValues extends PureComponent {
 
   ourValues = [
@@ -44,7 +42,7 @@ export default class OurValues extends PureComponent {
 
         <hr />
 
-        <a href='#jobs'>SAIBA MAIS <span>{'>>'}</span></a>
+        <a href="#jobs">SAIBA MAIS <span>{'>>'}</span></a>
       </section>
     )
   }

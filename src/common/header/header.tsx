@@ -3,8 +3,6 @@ import React, {
   ReactElement
 } from 'react'
 
-import { Link } from 'react-router-dom'
-
 import './header.scss'
 export default class HeaderComponent extends PureComponent {
 
@@ -22,7 +20,7 @@ export default class HeaderComponent extends PureComponent {
 
         <hr />
 
-        <Link to={'#jobs'} >VAGAS EM ABERTO <span>{'>>'}</span></Link>
+        <a href={'#jobs'} >VAGAS EM ABERTO <span>{'>>'}</span></a>
       </header>
     )
   }

@@ -12,7 +12,7 @@ export default class RouterSwitch extends PureComponent {
   render = () => {
     return (
       <Switch>
-        <Route exact path='/' component={Home}/>
+        <Route exact={true} path="/" component={Home}/>
       </Switch>
     )
   }
