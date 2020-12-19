@@ -1,6 +1,11 @@
 import React from 'react'
 import { mount } from 'enzyme'
 
+import {
+  CurrentJobsMock,
+  JobsMock
+} from './__mocks__'
+
 import Jobs from './index'
 
 const createComponent = () => {
@@ -85,182 +90,26 @@ describe('Jobs Component', () => {
       unmount()
     })
 
-    it('Should atualizar jobs', async () => {
-      const mock = jest.fn()
-
-      const jobs = [
-          {
-            "cargo": "Desenvolvedor Mobile Senior (Android e iOS)",
-            "ativa": true,
-            "link": "http://elo7.dev/vaga/desenvolvedor-mobile-senior",
-            "localizacao": {
-                "bairro": "Vila Olímpia",
-                "cidade": "São Paulo",
-                "pais": "Brasil"
-            }
-        },
-        {
-            "cargo": "Desenvolvedor Java Senior",
-            "ativa": true,
-            "link": "http://elo7.dev/vaga/desenvolvedor-java-senior",
-            "localizacao": {
-                "bairro": "Vila Olímpia",
-                "cidade": "São Paulo",
-                "pais": "Brasil"
-            }
-        },
-        {
-            "cargo": "Desenvolvedor Front end",
-            "ativa": true,
-            "link": "http://elo7.dev/vaga/desenvolvedor-front-end",
-            "localizacao": {
-                "bairro": "Vila Olímpia",
-                "cidade": "São Paulo",
-                "pais": "Brasil"
-            }
-        },
-        {
-            "cargo": "Desenvolvedor Java Junior",
-            "ativa": true,
-            "link": "http://elo7.dev/vaga/desenvolvedor-java-jr",
-        }
-      ]
-
-
-      const currentJobs = [
-        {
-          "id": 1,
-          "cargo": "Desenvolvedor Mobile Senior (Android e iOS)",
-          "ativa": true,
-          "link": "http://elo7.dev/vaga/desenvolvedor-mobile-senior",
-          "localizacao": {
-              "bairro": "Vila Olímpia",
-              "cidade": "São Paulo",
-              "pais": "Brasil"
-          }
-      },
-      {
-        "id": 2,
-          "cargo": "Desenvolvedor Java Senior",
-          "ativa": true,
-          "link": "http://elo7.dev/vaga/desenvolvedor-java-senior",
-          "localizacao": {
-              "bairro": "Vila Olímpia",
-              "cidade": "São Paulo",
-              "pais": "Brasil"
-          }
-      },
-      {
-        "id": 3,
-          "cargo": "Desenvolvedor Front end",
-          "ativa": true,
-          "link": "http://elo7.dev/vaga/desenvolvedor-front-end",
-          "localizacao": {
-              "bairro": "Vila Olímpia",
-              "cidade": "São Paulo",
-              "pais": "Brasil"
-          }
-      },
-      {
-        "id": 4,
-          "cargo": "Desenvolvedor Java Junior",
-          "ativa": true,
-          "link": "http://elo7.dev/vaga/desenvolvedor-java-jr",
-          "localizacao": "Remoto"
-      }
-      ]
-
-
+    it('Should update listJobs', async () => {
       const [wrapper, unmount] = createComponent()
 
       wrapper.setState({ listJobs: [] })
+      wrapper.instance().checkLocationJobs(JobsMock)
 
-      wrapper.instance().checkLocationJobs(jobs)
-
-      wrapper.update()
-
-      expect(wrapper.state('listJobs')).toEqual(currentJobs)
+      expect(wrapper.state('listJobs')).toEqual(CurrentJobsMock)
       unmount()
     })
 
-
-
-
-
     it('Should call checkLocationJobs on checkActivesJobs', async () => {
       const mock = jest.fn()
-
-      const jobs = [
-        [
-          {
-              "cargo": "Desenvolvedor Mobile Senior (Android e iOS)",
-              "ativa": true,
-              "link": "http://elo7.dev/vaga/desenvolvedor-mobile-senior",
-              "localizacao": {
-                  "bairro": "Vila Olímpia",
-                  "cidade": "São Paulo",
-                  "pais": "Brasil"
-              }
-          },
-          {
-              "cargo": "Desenvolvedor Mobile Junior (Android)",
-              "ativa": false,
-              "link": "http://elo7.dev/vaga/desenvolvedor-mobile-junior",
-              "localizacao": {
-                  "bairro": "Vila Olímpia",
-                  "cidade": "São Paulo",
-                  "pais": "Brasil"
-              }
-          },
-          {
-              "cargo": "Desenvolvedor Java Senior",
-              "ativa": true,
-              "link": "http://elo7.dev/vaga/desenvolvedor-java-senior",
-              "localizacao": {
-                  "bairro": "Vila Olímpia",
-                  "cidade": "São Paulo",
-                  "pais": "Brasil"
-              }
-          },
-          {
-              "cargo": "Desenvolvedor Front end",
-              "ativa": true,
-              "link": "http://elo7.dev/vaga/desenvolvedor-front-end",
-              "localizacao": {
-                  "bairro": "Vila Olímpia",
-                  "cidade": "São Paulo",
-                  "pais": "Brasil"
-              }
-          },
-          {
-              "cargo": "Desenvolvedor Java Junior",
-              "ativa": false,
-              "link": "http://elo7.dev/vaga/desenvolvedor-java-jr",
-              "localizacao": {
-                  "bairro": "Vila Olímpia",
-                  "cidade": "São Paulo",
-                  "pais": "Brasil"
-              }
-          },
-          {
-              "cargo": "Desenvolvedor Java Junior",
-              "ativa": true,
-              "link": "http://elo7.dev/vaga/desenvolvedor-java-jr"
-          }
-      ]
-      ]
-
       const [wrapper, unmount] = createComponent()
 
       wrapper.instance().checkLocationJobs = mock
-      await wrapper.instance().checkActivesJobs(jobs)
+      await wrapper.instance().checkActivesJobs(JobsMock)
 
       expect(wrapper.instance().checkLocationJobs).toHaveBeenCalled()
       unmount()
     })
-
-
-
 
     it('Should return idJob when call generateId', () => {
       const [wrapper, unmount] = createComponent()
