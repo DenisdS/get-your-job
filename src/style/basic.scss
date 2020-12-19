@@ -142,5 +142,21 @@ a {
     height: 500px;
     margin-left: 5%;
     width: 90%;
+
+    h2 {
+      margin-top: 45px;
+      text-align: center;
+    }
+
+    h3 {
+      padding-bottom: 30px;
+      margin-top: 60px;
+    }
+
+    ul {
+      li {
+        padding-top: 15px;
+      }
+    }
   }
 }
