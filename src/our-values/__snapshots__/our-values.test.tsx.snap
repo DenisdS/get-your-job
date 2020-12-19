@@ -147,7 +147,8 @@ ReactWrapper {
                     </article>
                     <hr />
                     <a
-                      href="#jobs"
+                      href="https://www.elo7.com.br/sobre"
+                      target="_blank"
                     >
                       SAIBA MAIS 
                       <span>
@@ -298,7 +299,8 @@ ReactWrapper {
                   </article>
                   <hr />
                   <a
-                    href="#jobs"
+                    href="https://www.elo7.com.br/sobre"
+                    target="_blank"
                   >
                     SAIBA MAIS 
                     <span>
@@ -1209,7 +1211,8 @@ ReactWrapper {
                       &gt;&gt;
                     </span>,
                   ],
-                  "href": "#jobs",
+                  "href": "https://www.elo7.com.br/sobre",
+                  "target": "_blank",
                 },
                 "memoizedState": null,
                 "mode": 0,
@@ -1221,14 +1224,16 @@ ReactWrapper {
                       &gt;&gt;
                     </span>,
                   ],
-                  "href": "#jobs",
+                  "href": "https://www.elo7.com.br/sobre",
+                  "target": "_blank",
                 },
                 "ref": null,
                 "return": [Circular],
                 "selfBaseDuration": 0,
                 "sibling": null,
                 "stateNode": <a
-                  href="#jobs"
+                  href="https://www.elo7.com.br/sobre"
+                  target="_blank"
                 >
                   SAIBA MAIS 
                   <span>
@@ -1303,7 +1308,8 @@ ReactWrapper {
               ],
               <hr />,
               <a
-                href="#jobs"
+                href="https://www.elo7.com.br/sobre"
+                target="_blank"
               >
                 SAIBA MAIS 
                 <span>
@@ -1358,7 +1364,8 @@ ReactWrapper {
               ],
               <hr />,
               <a
-                href="#jobs"
+                href="https://www.elo7.com.br/sobre"
+                target="_blank"
               >
                 SAIBA MAIS 
                 <span>
@@ -1413,7 +1420,8 @@ ReactWrapper {
             </article>
             <hr />
             <a
-              href="#jobs"
+              href="https://www.elo7.com.br/sobre"
+              target="_blank"
             >
               SAIBA MAIS 
               <span>
@@ -1568,7 +1576,8 @@ ReactWrapper {
                     </article>
                     <hr />
                     <a
-                      href="#jobs"
+                      href="https://www.elo7.com.br/sobre"
+                      target="_blank"
                     >
                       SAIBA MAIS 
                       <span>
@@ -1719,7 +1728,8 @@ ReactWrapper {
                   </article>
                   <hr />
                   <a
-                    href="#jobs"
+                    href="https://www.elo7.com.br/sobre"
+                    target="_blank"
                   >
                     SAIBA MAIS 
                     <span>
@@ -1893,7 +1903,8 @@ ReactWrapper {
         </article>
         <hr />
         <a
-          href="#jobs"
+          href="https://www.elo7.com.br/sobre"
+          target="_blank"
         >
           SAIBA MAIS 
           <span>
@@ -1945,7 +1956,8 @@ ReactWrapper {
           ],
           <hr />,
           <a
-            href="#jobs"
+            href="https://www.elo7.com.br/sobre"
+            target="_blank"
           >
             SAIBA MAIS 
             <span>
@@ -2213,7 +2225,8 @@ ReactWrapper {
         },
         Object {
           "instance": <a
-            href="#jobs"
+            href="https://www.elo7.com.br/sobre"
+            target="_blank"
           >
             SAIBA MAIS 
             <span>
@@ -2229,7 +2242,8 @@ ReactWrapper {
                 &gt;&gt;
               </span>,
             ],
-            "href": "#jobs",
+            "href": "https://www.elo7.com.br/sobre",
+            "target": "_blank",
           },
           "ref": null,
           "rendered": Array [
@@ -2392,7 +2406,8 @@ ReactWrapper {
                       </article>
                       <hr />
                       <a
-                        href="#jobs"
+                        href="https://www.elo7.com.br/sobre"
+                        target="_blank"
                       >
                         SAIBA MAIS 
                         <span>
@@ -2543,7 +2558,8 @@ ReactWrapper {
                     </article>
                     <hr />
                     <a
-                      href="#jobs"
+                      href="https://www.elo7.com.br/sobre"
+                      target="_blank"
                     >
                       SAIBA MAIS 
                       <span>
@@ -3454,7 +3470,8 @@ ReactWrapper {
                         &gt;&gt;
                       </span>,
                     ],
-                    "href": "#jobs",
+                    "href": "https://www.elo7.com.br/sobre",
+                    "target": "_blank",
                   },
                   "memoizedState": null,
                   "mode": 0,
@@ -3466,14 +3483,16 @@ ReactWrapper {
                         &gt;&gt;
                       </span>,
                     ],
-                    "href": "#jobs",
+                    "href": "https://www.elo7.com.br/sobre",
+                    "target": "_blank",
                   },
                   "ref": null,
                   "return": [Circular],
                   "selfBaseDuration": 0,
                   "sibling": null,
                   "stateNode": <a
-                    href="#jobs"
+                    href="https://www.elo7.com.br/sobre"
+                    target="_blank"
                   >
                     SAIBA MAIS 
                     <span>
@@ -3548,7 +3567,8 @@ ReactWrapper {
                 ],
                 <hr />,
                 <a
-                  href="#jobs"
+                  href="https://www.elo7.com.br/sobre"
+                  target="_blank"
                 >
                   SAIBA MAIS 
                   <span>
@@ -3603,7 +3623,8 @@ ReactWrapper {
                 ],
                 <hr />,
                 <a
-                  href="#jobs"
+                  href="https://www.elo7.com.br/sobre"
+                  target="_blank"
                 >
                   SAIBA MAIS 
                   <span>
@@ -3658,7 +3679,8 @@ ReactWrapper {
               </article>
               <hr />
               <a
-                href="#jobs"
+                href="https://www.elo7.com.br/sobre"
+                target="_blank"
               >
                 SAIBA MAIS 
                 <span>
@@ -3813,7 +3835,8 @@ ReactWrapper {
                       </article>
                       <hr />
                       <a
-                        href="#jobs"
+                        href="https://www.elo7.com.br/sobre"
+                        target="_blank"
                       >
                         SAIBA MAIS 
                         <span>
@@ -3964,7 +3987,8 @@ ReactWrapper {
                     </article>
                     <hr />
                     <a
-                      href="#jobs"
+                      href="https://www.elo7.com.br/sobre"
+                      target="_blank"
                     >
                       SAIBA MAIS 
                       <span>
@@ -4138,7 +4162,8 @@ ReactWrapper {
           </article>
           <hr />
           <a
-            href="#jobs"
+            href="https://www.elo7.com.br/sobre"
+            target="_blank"
           >
             SAIBA MAIS 
             <span>
@@ -4190,7 +4215,8 @@ ReactWrapper {
             ],
             <hr />,
             <a
-              href="#jobs"
+              href="https://www.elo7.com.br/sobre"
+              target="_blank"
             >
               SAIBA MAIS 
               <span>
@@ -4458,7 +4484,8 @@ ReactWrapper {
           },
           Object {
             "instance": <a
-              href="#jobs"
+              href="https://www.elo7.com.br/sobre"
+              target="_blank"
             >
               SAIBA MAIS 
               <span>
@@ -4474,7 +4501,8 @@ ReactWrapper {
                   &gt;&gt;
                 </span>,
               ],
-              "href": "#jobs",
+              "href": "https://www.elo7.com.br/sobre",
+              "target": "_blank",
             },
             "ref": null,
             "rendered": Array [
