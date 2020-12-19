@@ -1,6 +1,9 @@
 ## Get Your Job
 Landing page to jobs Elo7's
 
+## Description
+The web is to everybody and jobs too, then this is platform has tools accessibility's.
+
 ### Technologies
 Eslint;
 Husky;
@@ -24,4 +27,4 @@ Yarn;
 `yarn coverage`
 
 ### Future Features
-Create a Storybook and Optmize interface for mobile the transform on responsive.
+Create a Storybook, optmize interface for mobile and improve tools accessibility.
