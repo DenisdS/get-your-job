@@ -92,4 +92,28 @@ a {
       }
     }
   }
+
+  // Our values
+  .our-values {
+    float: left;
+    height: 500px;
+    padding-top: 60px;
+    text-align: center;
+    width: 100%;
+
+    article {
+      width: 33%;
+      float: left;
+
+      h2 {
+        padding-top: 30px;
+      }
+
+      p {
+        padding-top: 40px;
+        text-align: justify;
+        width: 77%;
+      }
+    }
+  }
 }
