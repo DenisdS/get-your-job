@@ -44,7 +44,7 @@ export default class OurValues extends PureComponent {
 
         <hr />
 
-        <Link to={'#jobs'} >SAIBA MAIS <span>{'>>'}</span></Link>
+        <a href='#jobs'>SAIBA MAIS <span>{'>>'}</span></a>
       </section>
     )
   }

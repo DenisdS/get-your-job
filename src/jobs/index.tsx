@@ -7,6 +7,7 @@ type Props = {}
 
 type State = {
   listJobs: Occupations[]
+  id: number;
 }
 
 export default class Jobs extends PureComponent<Props, State> {
@@ -16,7 +17,8 @@ export default class Jobs extends PureComponent<Props, State> {
     super(props)
 
     this.state = {
-      listJobs: []
+      listJobs: [],
+      id: 0
     }
   }
 
@@ -49,13 +51,24 @@ export default class Jobs extends PureComponent<Props, State> {
     let listJobs = []
 
     listJobs = jobs.map(job => ({
+      id: this.generateId(),
       cargo: job.cargo,
       ativa: job.ativa,
       link: job.link,
       localizacao: job.localizacao ? job.localizacao : 'remoto'
     }))
 
-    this.setState({listJobs: listJobs})
+    this.setState({
+      listJobs: listJobs
+    })
+  }
+
+  generateId = (): number =>  {
+    const { id } = this.state
+    let idJob = id + 1
+
+    this.setState({id: idJob})
+    return idJob
   }
 
   render = (): ReactElement => {
@@ -75,7 +88,11 @@ export default class Jobs extends PureComponent<Props, State> {
         <ul>
           {
             listJobs.map((job) => (
-            <li>{job.cargo}</li>
+            <li key={job.id}>
+              <a href={job.link} target="_blank">
+                {job.cargo}
+              </a>
+            </li>
             ))
           }
         </ul>

@@ -1,4 +1,5 @@
 export default interface Occupations {
+  id?: number,
   cargo?: string,
   ativa?: boolean,
   link?: string,
