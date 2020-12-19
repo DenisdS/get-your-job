@@ -96,14 +96,15 @@ a {
   // Our values
   .our-values {
     float: left;
-    height: 500px;
+    height: 575px;
     padding-top: 60px;
     text-align: center;
     width: 100%;
 
     article {
-      width: 33%;
       float: left;
+      padding-bottom: 30px;
+      width: 33%;
 
       h2 {
         padding-top: 30px;
@@ -115,5 +116,31 @@ a {
         width: 77%;
       }
     }
+
+    hr {
+      background: $SECOUNDARY_COLOR;
+      float: left;
+      margin-left: 40%;
+      width: 20%;
+    }
+
+    a {
+      float: left;
+      margin-top: 20px;
+      width: 100%;
+
+      span {
+       font-size: 13px;
+       top: -10px;
+      }
+    }
+  }
+
+  // Jobs
+  #jobs {
+    float: left;
+    height: 500px;
+    margin-left: 5%;
+    width: 90%;
   }
 }
