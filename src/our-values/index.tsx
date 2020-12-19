@@ -33,7 +33,7 @@ export default class OurValues extends PureComponent {
     return (
       <section className="our-values">
         {
-          ourValues.map((values) => (
+          ourValues.map(values => (
             <article>
               <img src={values.image} alt={values.altImg} />
               <h2>{values.title}</h2>

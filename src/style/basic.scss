@@ -156,6 +156,12 @@ a {
     ul {
       li {
         padding-top: 15px;
+
+        a {
+          span {
+            float: right;
+          }
+        }
       }
     }
   }

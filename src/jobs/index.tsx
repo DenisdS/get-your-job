@@ -6,8 +6,8 @@ import '../style/variables.scss';
 type Props = {}
 
 type State = {
+  id: number,
   listJobs: Occupations[]
-  id: number;
 }
 
 export default class Jobs extends PureComponent<Props, State> {
@@ -17,8 +17,8 @@ export default class Jobs extends PureComponent<Props, State> {
     super(props)
 
     this.state = {
+      id: 0,
       listJobs: [],
-      id: 0
     }
   }
 
@@ -55,7 +55,7 @@ export default class Jobs extends PureComponent<Props, State> {
       cargo: job.cargo,
       ativa: job.ativa,
       link: job.link,
-      localizacao: job.localizacao ? job.localizacao : 'remoto'
+      localizacao: job.localizacao ? job.localizacao : 'Remoto'
     }))
 
     this.setState({
@@ -88,11 +88,17 @@ export default class Jobs extends PureComponent<Props, State> {
         <ul>
           {
             listJobs.map((job) => (
-            <li key={job.id}>
-              <a href={job.link} target="_blank">
-                {job.cargo}
-              </a>
-            </li>
+              <li key={job.id}>
+                <a href={job.link} target="_blank">
+                  {job.cargo}
+                  <span style={{color: '#a7a4a1'}}>
+                    {!job.localizacao.bairro ? job.localizacao :
+                      `${job.localizacao.bairro} - ${job.localizacao.cidade},
+                      ${job.localizacao.pais}`
+                    }
+                  </span>
+                </a>
+              </li>
             ))
           }
         </ul>
