@@ -64,7 +64,7 @@ export default class Jobs extends PureComponent<Props, State> {
     } = this.state
 
     return (
-      <section className="jobs">
+      <section id="jobs">
         <img
           src={this.imgBanner}
           alt="Saiba mais sobre nós"

@@ -5,4 +5,41 @@ header {
   background-position: top center;
   background-repeat: no-repeat;
   background-size: 960px 450px;
+  height: 640px;
+  text-align: center;
+
+  h1 {
+    position: absolute;
+    top: 37%;
+    width: 100%;
+  }
+
+  p {
+    position: absolute;
+    left: 8%;
+    top: 65%;
+    width: 84%;
+  }
+
+  hr {
+    position: absolute;
+    background: $SECOUNDARY_COLOR;
+    margin-left: 40%;
+    top: 74%;
+    width: 20%;
+  }
+
+  a {
+    position: absolute;
+    width: 100%;
+    margin-left: -49.5%;
+    top: 77%;
+
+    span {
+     font-size: 13px;
+     top: -10px;
+    }
+  }
 }
+
+

@@ -26,7 +26,7 @@ describe('Jobs Component', () => {
       it('Should render jobs section', () => {
         const [wrapper, unmount] = createComponent()
 
-        expect(wrapper.find('section.jobs').length).toBe(1)
+        expect(wrapper.find('section#jobs').length).toBe(1)
         unmount()
       })
 
@@ -57,7 +57,7 @@ describe('Jobs Component', () => {
       it('should this is alt atribute on image tag', () =>
         const [wrapper, unmount] = createComponent({})
 
-        expect(wrapper.find('section.jobs img').prop('alt')).toBeTruthy()
+        expect(wrapper.find('section#jobs img').prop('alt')).toBeTruthy()
         unmount()
       })
     })

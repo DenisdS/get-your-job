@@ -1,33 +1,44 @@
 @import '../style/variables.scss';
 
+// Reset
 * {
   font-family: sans-serif;
   margin: 0 auto;
+  text-decoration: none;
 }
 
 ul {
   list-style: none;
 }
 
+// Titles
 h1 {
-  font-size: $PRIMARY_SIZE;
   color: $PRIMARY_COLOR;
+  font-size: $PRIMARY_SIZE;
 }
 
 h2 {
-  font-size: $SECOUNDARY_SIZE;
   color: $SECOUNDARY_COLOR;
+  font-size: $SECOUNDARY_SIZE;
 }
 
 h3 {
-  font-size: $TERCIARY_SIZE;
   color: $TERCIARY_COLOR;
+  font-size: $TERCIARY_SIZE;
 }
 
 p {
+  color: $SECOUNDARY_COLOR;
   font-size: $TEXT_SIZE;
+  line-height: 26px;
 }
 
+a {
+  color: $LINK_COLOR;
+  font-weight: bold;
+}
+
+// Sections
 .about {
   background: $SPOTLIGHT_COLOR;
 }
